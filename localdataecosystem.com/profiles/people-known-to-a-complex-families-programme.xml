@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns="http://schema.legsb.gov.uk/lde/profile/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="people-known-to-a-complex-families-programme" groupid="8" publish="no" class="1">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-05-01" by="1" name="Person known to a Complex Families programme">
+    <Description/>
+  <Description></Description></Meta>
+<Classes><Class id="1" dictid="core" classid="1" create="true" select="false"/></Classes></Profile>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns="http://schema.legsb.gov.uk/lde/profile/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="planning-applications" groupid="5" publish="no" class="1">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-04-16" by="1" name="Planning Application">
+	</Meta>
+	<Classes>
+		<Class id="1" dictid="planningregister" classid="3" create="true" select="false">
+			<Relationships>
+				<Relationship id="1" dictid="core" relid="6" class="2"/>
+				<Relationship id="2" dictid="planningregister" relid="3" class="3" cardinality="extend"/>
+				<Relationship id="3" dictid="planningregister" relid="4" class="4" cardinality="extend"/>
+				
+			<Relationship id="4" dictid="planningregister" relid="5" class="7"/><Relationship id="5" dictid="core" relid="7" class="9"/><Relationship id="6" dictid="case" relid="1" class="10"/></Relationships>
+		</Class>
+		<Class id="2" dictid="planningregister" classid="2" create="false" select="true"/>
+		<Class id="3" dictid="planningregister" classid="4" create="true" select="false"/>
+		<Class id="4" dictid="planningregister" classid="5" create="true" select="false"/>
+		<Class id="5" dictid="place" classid="1" create="true" select="false"/>
+		<Class id="6" dictid="planningregister" classid="6" create="true" select="false"/>
+	<Class id="7" dictid="planningregister" classid="6" create="true" select="false"/><Class id="8" dictid="planningregister" classid="6" create="true" select="false"/><Class id="9" dictid="place" classid="1" create="true" select="false"/><Class id="10" dictid="plan" classid="1" create="true" select="false"/></Classes>
+</Profile>

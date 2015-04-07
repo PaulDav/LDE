@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sources xmlns="http://schema.legsb.gov.uk/lde/library/">
+  <Source id="1" userid="1">
+    <Name>The Data Protection Act 1998</Name>
+    <Description>Principles for handling personal data</Description>
+    <URL>http://ico.org.uk/for_organisations/data_protection</URL>
+  </Source>
+<Source id="2" userid="1"><Name>Freedom of Information Act 2000</Name><Description>Right to Information</Description><URL>http://www.legislation.gov.uk/ukpga/2000/36/contents</URL></Source><Source id="3" userid="1"><Name>Ordnance Survey</Name><Description/><URL>http://www.ordnancesurvey.co.uk</URL></Source><Source id="4" userid="1"><Name>PSN - Public Services Network</Name><Description></Description><URL></URL></Source></Sources>

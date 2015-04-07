@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="organisations" groupid="4" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-08-08" by="1" name="Organisations">
+    <Description/>
+  </Meta>
+<Relationships><Relationship id="1" conceptRelationship="atPlace" cardinality="one"><Label>administers</Label><Description/><Inverse><Label>is administered by</Label></Inverse><Subject dict="core" class="3"/><Object dict="place" class="4"/></Relationship></Relationships><Properties><Property id="1" type="simple"><Label>Type</Label><Description/><Field><DataType>value</DataType><Length/></Field><PropertyLists><PropertyList listid="1"/></PropertyLists></Property></Properties><Lists><List id="1"><Label>Organisation Types</Label><Description/><Source/><DescribedAt/><ListValues><ListValue id="1" valueid="1"/><ListValue id="2" valueid="2"/></ListValues></List></Lists><Values><Value id="1"><Label>Local Authority</Label><Description/><Code/><URI/></Value><Value id="2"><Label>School</Label><Description/><Code/><URI/></Value></Values></Dictionary>

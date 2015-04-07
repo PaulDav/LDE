@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns="http://schema.legsb.gov.uk/lde/profile/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="complex-households" groupid="8" publish="no" class="1">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-04-30" by="1" name="Complex Household">
+		<Description/>
+	<Description></Description></Meta>
+	<Classes>
+		<Class id="1" dictid="complex-dependencies" classid="1" create="true" select="true">
+			<Relationships>
+				<Relationship id="1" dictid="complex-dependencies" relid="1" class="2" inverse="true" cardinality="many"/>
+			</Relationships>
+		</Class>
+		<Class id="2" dictid="core" classid="1" create="true" select="true"/>
+	</Classes>
+</Profile>

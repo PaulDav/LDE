@@ -1,0 +1,4242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shapes xmlns="http://schema.legsb.gov.uk/lde/shape/">
+
+	<Shape id="1" ownerid="1" published="false" groupid="5">
+		<Name>Planning Application</Name>
+		<Description>Shape of a Planning Application</Description>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="5" selected="true"/>
+								<ShapeProperty propdictid="place" propid="1" selected="true"/>
+								<ShapeProperty propdictid="place" propid="2" selected="true"/>
+								<ShapeProperty propdictid="core" propid="2" selected="true"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="people" relid="1" effdates="true">
+						<ShapeClass id="3" classdictid="planningregister" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="3" reldictid="core" relid="8" inverse="true">
+									<ShapeClass id="4" classdictid="planningregister" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="1" selected="true"/>
+										</ShapeProperties>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+
+					<ShapeLink id="11" reldictid="planningregister" relid="3">
+						<ShapeClass id="15" classdictid="planningregister" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="planningregister" propid="9" selected="true"/>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+								<ShapeProperty propdictid="date-and-time" propid="1" selected="true"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="12" reldictid="planningregister" relid="4">
+						<ShapeClass id="16" classdictid="planningregister" classid="5">
+							<ShapeProperties>
+								<ShapeProperty propdictid="planningregister" propid="9" selected="true"/>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+								<ShapeProperty propdictid="date-and-time" propid="1" selected="true"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+
+
+
+
+
+			</ShapeClass>
+		</Selection>
+	</Shape>
+
+
+
+
+
+	<Shape id="5" ownerid="1" published="false" selectionOf="1">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="planningregister" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="planningregister" propid="1" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="2" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="4" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="2" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="6" ownerid="1" published="false" selectionOf="1">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="planningregister" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="planningregister" propid="1" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="2" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="4" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="5" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="2" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="7" ownerid="1" published="false" selectionOf="1">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="planningregister" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="planningregister" propid="1" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="2" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="4" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="5" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="5" selected="true"/>
+								<ShapeProperty propdictid="place" propid="1" selected="true"/>
+								<ShapeProperty propdictid="place" propid="2" selected="true"/>
+								<ShapeProperty propdictid="core" propid="2" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="core" relid="6">
+						<ShapeClass id="3" classdictid="planningregister" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="8" ownerid="1" published="false" selectionOf="1">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="planningregister" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="planningregister" propid="1" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="2" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="4" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="5" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="6" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="7" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="11" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="5" selected="true"/>
+								<ShapeProperty propdictid="place" propid="1" selected="true"/>
+								<ShapeProperty propdictid="place" propid="2" selected="true"/>
+								<ShapeProperty propdictid="core" propid="2" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="planningregister" relid="3">
+						<ShapeClass id="3" classdictid="planningregister" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="planningregister" propid="9" selected="true"/>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+								<ShapeProperty propdictid="date-and-time" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+
+
+	<Shape id="9" ownerid="1" published="false" selectionOf="1">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="planningregister" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="planningregister" propid="1" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="2" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="4" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="5" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="6" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="7" selected="true"/>
+					<ShapeProperty propdictid="planningregister" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="11" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="5" selected="true"/>
+								<ShapeProperty propdictid="place" propid="1" selected="true"/>
+								<ShapeProperty propdictid="place" propid="2" selected="true"/>
+								<ShapeProperty propdictid="core" propid="2" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="planningregister" relid="3">
+						<ShapeClass id="3" classdictid="planningregister" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="planningregister" propid="9" selected="true"/>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+								<ShapeProperty propdictid="date-and-time" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+
+
+	<Shape id="10" ownerid="1" groupid="7" published="false">
+		<Name>Pot Hole</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="street-maintenance" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+					<ShapeProperty propdictid="core" propid="11" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="5" selected="true"/>
+								<ShapeProperty propdictid="place" propid="1" selected="true"/>
+								<ShapeProperty propdictid="place" propid="2" selected="true"/>
+								<ShapeProperty propdictid="core" propid="2" selected="true"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="11" ownerid="1" published="false" selectionOf="10">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="12" ownerid="1" published="false" selectionOf="10">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="13" ownerid="1" published="false" selectionOf="10">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="14" ownerid="1" published="false" selectionOf="10">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="15" ownerid="1" published="false" selectionOf="10">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="16" ownerid="1" published="false" selectionOf="10">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="street-maintenance" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="7">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="5" selected="true"/>
+								<ShapeProperty propdictid="place" propid="1" selected="true"/>
+								<ShapeProperty propdictid="place" propid="2" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="17" ownerid="1" published="false" groupid="8">
+		<Name>Complex Dependency Case</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+
+								<ShapeLink id="9" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="10" classdictid="complex-dependencies" classid="6">
+										<ShapeLinks>
+											<ShapeLink id="10" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="11" classdictid="people" classid="3">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="11" reldictid="people" relid="4" cardinality="one" effdates="true">
+															<ShapeClass id="12" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" selected="true" cardinality="one"/>
+																	<ShapeProperty propdictid="land-and-property" propid="2" selected="true" cardinality="one"/>
+																	<ShapeProperty propdictid="land-and-property" propid="3" selected="true" cardinality="one"/>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="12" reldictid="land-and-property" relid="1" cardinality="extend">
+																		<ShapeClass id="13" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" selected="true" cardinality="one">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" selected="true" cardinality="one"/>
+																						<ShapeProperty propdictid="place" propid="9" selected="true" cardinality="one"/>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="13" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="1" selected="true"/>
+												</ShapeProperties>
+												<ShapeClass id="14" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/>
+														<ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/>
+														<ShapeProperty propdictid="people" propid="1" selected="true" cardinality="many">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" selected="true" cardinality="one"/>
+																<ShapeProperty propdictid="people" propid="3" selected="true" cardinality="one"/>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="14" reldictid="people" relid="2" cardinality="many" effdates="true">
+												<ShapeClass id="15" classdictid="complex-dependencies" classid="5">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/>
+														<ShapeProperty propdictid="complex-dependencies" propid="5" selected="true" cardinality="many">
+															<ShapeProperties>
+																<ShapeProperty propdictid="complex-dependencies" propid="6" selected="true" cardinality="one"/>
+																<ShapeProperty propdictid="core" propid="14" selected="true" cardinality="one"/>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/>
+											<ShapeProperty propdictid="people" propid="1" selected="true" cardinality="many">
+												<ShapeProperties>
+													<ShapeProperty propdictid="people" propid="2" selected="true" cardinality="one"/>
+													<ShapeProperty propdictid="people" propid="3" selected="true" cardinality="one"/>
+												</ShapeProperties>
+											</ShapeProperty>
+											<ShapeProperty propdictid="complex-dependencies" propid="3" selected="true" cardinality="many"/>
+											<ShapeProperty propdictid="complex-dependencies" propid="5" selected="true" cardinality="many">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="6" selected="true" cardinality="one"/>
+													<ShapeProperty propdictid="state" propid="3" selected="true" cardinality="one"/>
+												</ShapeProperties>
+											</ShapeProperty>
+										</ShapeProperties>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="8" reldictid="case" relid="2" cardinality="one" inverse="true">
+						<ShapeClass id="9" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" selected="true" cardinality="many"/>
+					<ShapeProperty propdictid="complex-dependencies" propid="4" selected="true" cardinality="many"/>
+				</ShapeProperties>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="18" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks/>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="19" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="20" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="22" ownerid="1" published="false" selectionOf="21">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="people" relid="1">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+								<ShapeProperty propdictid="core" propid="9" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="23" ownerid="1" groupid="4" published="false">
+		<Name>Local Authority</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="1" cardinality="one">
+						<ShapeClass id="2" classdictid="place" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="7" selected="true" cardinality="many"/>
+				</ShapeProperties>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="24" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" selected="true"/>
+					<ShapeProperty propdictid="core" propid="1" selected="true"/>
+					<ShapeProperty propdictid="core" propid="7" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="25" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" selected="true"/>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" selected="true"/>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="1" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="2" selected="true"/>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="26" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" selected="true"/>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" selected="true"/>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="1" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="2" selected="true"/>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="6" reldictid="case" relid="2" inverse="true">
+						<ShapeClass id="7" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="27" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" selected="true"/>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" selected="true"/>
+																	<ShapeProperty propdictid="land-and-property" propid="2" selected="true"/>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="1" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="2" selected="true"/>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="6" reldictid="case" relid="2" inverse="true">
+						<ShapeClass id="7" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="28" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" selected="true"/>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" selected="true"/>
+																	<ShapeProperty propdictid="land-and-property" propid="2" selected="true"/>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="1" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="2" selected="true"/>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="6" reldictid="case" relid="2" inverse="true">
+						<ShapeClass id="7" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="29" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" selected="true"/>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" selected="true"/>
+																	<ShapeProperty propdictid="land-and-property" propid="2" selected="true"/>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="1" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="2" selected="true"/>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="6" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="7" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="30" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+					<ShapeProperty propdictid="core" propid="11" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="3" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="31" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="32" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+					<ShapeProperty propdictid="core" propid="11" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="3" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="33" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+					<ShapeProperty propdictid="core" propid="11" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks/>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="3" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="4" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="34" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true"/>
+					<ShapeProperty propdictid="core" propid="11" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" selected="true"/>
+											<ShapeProperty propdictid="core" propid="9" selected="true"/>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" selected="true"/>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" selected="true"/>
+																	<ShapeProperty propdictid="land-and-property" propid="2" selected="true"/>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="1" selected="true"/>
+																				<ShapeProperty propdictid="place" propid="2" selected="true"/>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="6" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="7" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" selected="true"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="35" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="36" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="37" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="38" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="39" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="40" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="41" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="42" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="43" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="44" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="45" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="46" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="47" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="complex-dependencies" propid="1" selected="true"/>
+						</ShapeProperties>
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="48" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="49" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="complex-dependencies" propid="1" selected="true"/>
+						</ShapeProperties>
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true"/>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="50" ownerid="1" groupid="4" published="false">
+		<Name>Council Area</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+
+
+
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true" cardinality="one">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" selected="true" cardinality="many">
+								<ShapeProperties>
+									<ShapeProperty propdictid="place" propid="1" selected="true" cardinality="one"/>
+									<ShapeProperty propdictid="place" propid="2" selected="true" cardinality="one"/>
+									<ShapeProperty propdictid="place" propid="5" selected="true" cardinality="one"/>
+								</ShapeProperties>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+				</ShapeProperties>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="51" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="52" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="53" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="54" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="55" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true"/>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="56" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" selected="true">
+								<ShapeProperties/>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="57" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="58" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="59" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="60" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" selected="true">
+								<ShapeProperties/>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="61" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="62" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="63" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="64" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="65" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" selected="true">
+								<ShapeProperties>
+									<ShapeProperty propdictid="place" propid="1" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="2" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="5" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+								</ShapeProperties>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="66" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" selected="true">
+								<ShapeProperties>
+									<ShapeProperty propdictid="place" propid="1" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="2" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="5" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+								</ShapeProperties>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="67" ownerid="1" published="false" selectionOf="50">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="4">
+				<ShapeProperties>
+					<ShapeProperty propdictid="place" propid="6" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" selected="true" cardinality="many">
+								<ShapeProperties>
+									<ShapeProperty propdictid="place" propid="1" selected="true" cardinality="one">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="2" selected="true" cardinality="one">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="5" selected="true" cardinality="one">
+										<ShapeProperties/>
+									</ShapeProperty>
+								</ShapeProperties>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="68" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="69" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="70" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="71" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="72" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="73" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="74" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection/>
+	</Shape>
+	<Shape id="75" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="76" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="77" ownerid="1" published="false" selectionOf="23">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="1" cardinality="one">
+						<ShapeClass id="2" classdictid="place" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="78" ownerid="1" published="false" groupid="4">
+		<Name>Neighbourhood Area</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="6" create="true">
+				
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="place" relid="2" cardinality="many">
+						<ShapeClass id="2" classdictid="place" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			<ShapeProperties><ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="core" propid="7" selected="true" cardinality="many"/><ShapeProperty propdictid="place" propid="6" selected="true" cardinality="one"><ShapeProperties><ShapeProperty propdictid="place" propid="7" selected="true" cardinality="many"/></ShapeProperties></ShapeProperty></ShapeProperties></ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="79" ownerid="1" published="false" selectionOf="78">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="6">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="place" propid="6" cardinality="one" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" cardinality="many" selected="true">
+								<ShapeProperties>
+									<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+								</ShapeProperties>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="80" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="11" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																				<ShapeProperty propdictid="place" propid="1" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																				<ShapeProperty propdictid="place" propid="2" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks>
+																				<ShapeLink id="6" reldictid="place" relid="1" cardinality="many">
+																					<ShapeClass id="7" classdictid="place" classid="6">
+																						<ShapeProperties>
+																							<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+																								<ShapeProperties/>
+																							</ShapeProperty>
+																						</ShapeProperties>
+																						<ShapeLinks/>
+																					</ShapeClass>
+																				</ShapeLink>
+																			</ShapeLinks>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="7" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="8" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="81" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="11" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																				<ShapeProperty propdictid="place" propid="1" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																				<ShapeProperty propdictid="place" propid="2" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks>
+																				<ShapeLink id="6" reldictid="place" relid="1" cardinality="many">
+																					<ShapeClass id="7" classdictid="place" classid="6">
+																						<ShapeProperties>
+																							<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+																								<ShapeProperties/>
+																							</ShapeProperty>
+																						</ShapeProperties>
+																						<ShapeLinks/>
+																					</ShapeClass>
+																				</ShapeLink>
+																			</ShapeLinks>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="7" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="8" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="82" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="5" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																				<ShapeProperty propdictid="place" propid="1" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																				<ShapeProperty propdictid="place" propid="2" cardinality="one" selected="true">
+																					<ShapeProperties/>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks>
+																				<ShapeLink id="6" reldictid="place" relid="1" cardinality="many">
+																					<ShapeClass id="7" classdictid="place" classid="6">
+																						<ShapeProperties>
+																							<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+																								<ShapeProperties/>
+																							</ShapeProperty>
+																						</ShapeProperties>
+																						<ShapeLinks/>
+																					</ShapeClass>
+																				</ShapeLink>
+																			</ShapeLinks>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="7" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="8" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="83" ownerid="1" groupid="4" published="false">
+		<Name>Living Accommodation</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="land-and-property" classid="1" create="true" update="true">
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="land-and-property" relid="1" cardinality="extend">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="10" selected="true" cardinality="one">
+									<ShapeProperties>
+										<ShapeProperty propdictid="place" propid="8" selected="true" cardinality="one"/>
+										<ShapeProperty propdictid="place" propid="9" selected="true" cardinality="one"/>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="place" relid="1" cardinality="many">
+									<ShapeClass id="3" classdictid="place" classid="6">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+										</ShapeProperties>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+				
+			<ShapeProperties><ShapeProperty propdictid="land-and-property" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="land-and-property" propid="3" selected="true" cardinality="one"/><ShapeProperty propdictid="land-and-property" propid="2" selected="true" cardinality="one"/></ShapeProperties></ShapeClass>
+		<ShapeClass id="4" classdictid="place" classid="1" create="true"><ShapeProperties><ShapeProperty propdictid="place" propid="10" selected="true" cardinality="one"><ShapeProperties><ShapeProperty propdictid="place" propid="8" selected="true" cardinality="one"/><ShapeProperty propdictid="place" propid="9" selected="true" cardinality="one"/></ShapeProperties></ShapeProperty><ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/></ShapeProperties></ShapeClass><ShapeLink id="3" reldictid="land-and-property" relid="1" fromshapeclassid="1" toshapeclassid="4" cardinality="one"/></Selection>
+	</Shape>
+	<Shape id="84" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																						<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks>
+																				<ShapeLink id="6" reldictid="place" relid="1" cardinality="many">
+																					<ShapeClass id="7" classdictid="place" classid="6">
+																						<ShapeProperties>
+																							<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+																								<ShapeProperties/>
+																							</ShapeProperty>
+																						</ShapeProperties>
+																						<ShapeLinks/>
+																					</ShapeClass>
+																				</ShapeLink>
+																			</ShapeLinks>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="7" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="8" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="85" ownerid="1" published="false" selectionOf="83">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="land-and-property" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="land-and-property" propid="3" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="land-and-property" relid="1" cardinality="extend">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="86" ownerid="1" published="false" selectionOf="83">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="land-and-property" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="land-and-property" propid="3" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="land-and-property" relid="1" cardinality="extend">
+						<ShapeClass id="2" classdictid="place" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="place" relid="1" cardinality="many">
+									<ShapeClass id="3" classdictid="place" classid="6">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks/>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="87" ownerid="1" groupid="4" published="false">
+		<Name>Person Index</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="people" propid="1" selected="true" cardinality="many">
+						<ShapeProperties>
+							<ShapeProperty propdictid="people" propid="2" selected="true" cardinality="one"/>
+							<ShapeProperty propdictid="people" propid="3" selected="true" cardinality="one"/>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="people" relid="3" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="land-and-property" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="land-and-property" propid="1" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="land-and-property" propid="2" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="land-and-property" propid="3" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="88" ownerid="1" published="false" selectionOf="87">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+								<ShapeProperties/>
+							</ShapeProperty>
+							<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+								<ShapeProperties/>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="89" ownerid="1" published="false" selectionOf="87">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+								<ShapeProperties/>
+							</ShapeProperty>
+							<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+								<ShapeProperties/>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="people" relid="3" cardinality="many" effdates="true">
+						<ShapeClass id="2" classdictid="land-and-property" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="land-and-property" propid="3" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="90" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="4" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="5" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="5" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="6" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="6" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="7" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																						<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks>
+																				<ShapeLink id="7" reldictid="place" relid="1" cardinality="many">
+																					<ShapeClass id="8" classdictid="place" classid="6">
+																						<ShapeProperties>
+																							<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+																								<ShapeProperties/>
+																							</ShapeProperty>
+																						</ShapeProperties>
+																						<ShapeLinks/>
+																					</ShapeClass>
+																				</ShapeLink>
+																			</ShapeLinks>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="8" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="9" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="91" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="4" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="5" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="5" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="6" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="6" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="7" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																						<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks>
+																				<ShapeLink id="7" reldictid="place" relid="1" cardinality="many">
+																					<ShapeClass id="8" classdictid="place" classid="6">
+																						<ShapeProperties>
+																							<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+																								<ShapeProperties/>
+																							</ShapeProperty>
+																						</ShapeProperties>
+																						<ShapeLinks/>
+																					</ShapeClass>
+																				</ShapeLink>
+																			</ShapeLinks>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="8" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="9" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="92" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="4" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="core" classid="1">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="4" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="5" classdictid="complex-dependencies" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="5" reldictid="complex-dependencies" relid="9" cardinality="one" effdates="true">
+															<ShapeClass id="6" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="6" reldictid="land-and-property" relid="1" cardinality="many">
+																		<ShapeClass id="7" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																						<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks>
+																				<ShapeLink id="7" reldictid="place" relid="1" cardinality="many">
+																					<ShapeClass id="8" classdictid="place" classid="6">
+																						<ShapeProperties>
+																							<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+																								<ShapeProperties/>
+																							</ShapeProperty>
+																						</ShapeProperties>
+																						<ShapeLinks/>
+																					</ShapeClass>
+																				</ShapeLink>
+																			</ShapeLinks>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="8" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="9" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="93" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="4" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="complex-dependencies" classid="6">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+											<ShapeProperty propdictid="complex-dependencies" propid="3" cardinality="many" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="people" classid="3">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="people" relid="4" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="3" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks/>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="5" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="1" cardinality="one" selected="true"/>
+												</ShapeProperties>
+												<ShapeClass id="6" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="6" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="7" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="94" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="4" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="complex-dependencies" classid="6">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+											<ShapeProperty propdictid="complex-dependencies" propid="3" cardinality="many" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="people" classid="3">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="people" relid="4" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="3" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="extend">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																						<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="6" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="1" cardinality="one" selected="true"/>
+												</ShapeProperties>
+												<ShapeClass id="7" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="7" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="8" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="95" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="6">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="complex-dependencies" propid="1" cardinality="one" selected="true"/>
+						</ShapeProperties>
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="96" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="4" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="complex-dependencies" classid="6">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+											<ShapeProperty propdictid="complex-dependencies" propid="3" cardinality="many" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="complex-dependencies" propid="5" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="6" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="state" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="people" classid="3">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="people" relid="4" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="3" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="extend">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																						<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="6" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="1" cardinality="one" selected="true"/>
+												</ShapeProperties>
+												<ShapeClass id="7" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="7" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="8" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="97" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="2" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="complex-dependencies" propid="4" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="7" cardinality="one">
+						<ShapeClass id="2" classdictid="complex-dependencies" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks>
+								<ShapeLink id="2" reldictid="people" relid="1" cardinality="many" effdates="true">
+									<ShapeClass id="3" classdictid="complex-dependencies" classid="6">
+										<ShapeProperties>
+											<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+											<ShapeProperty propdictid="complex-dependencies" propid="3" cardinality="many" selected="true">
+												<ShapeProperties/>
+											</ShapeProperty>
+											<ShapeProperty propdictid="complex-dependencies" propid="5" cardinality="many" selected="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="6" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+													<ShapeProperty propdictid="state" propid="3" cardinality="one" selected="true">
+														<ShapeProperties/>
+													</ShapeProperty>
+												</ShapeProperties>
+											</ShapeProperty>
+										</ShapeProperties>
+										<ShapeLinks>
+											<ShapeLink id="3" reldictid="people" relid="1" inverse="true" cardinality="many" effdates="true">
+												<ShapeClass id="4" classdictid="people" classid="3">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks>
+														<ShapeLink id="4" reldictid="people" relid="4" cardinality="one" effdates="true">
+															<ShapeClass id="5" classdictid="land-and-property" classid="1">
+																<ShapeProperties>
+																	<ShapeProperty propdictid="land-and-property" propid="1" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="2" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																	<ShapeProperty propdictid="land-and-property" propid="3" cardinality="one" selected="true">
+																		<ShapeProperties/>
+																	</ShapeProperty>
+																</ShapeProperties>
+																<ShapeLinks>
+																	<ShapeLink id="5" reldictid="land-and-property" relid="1" cardinality="extend">
+																		<ShapeClass id="6" classdictid="place" classid="1">
+																			<ShapeProperties>
+																				<ShapeProperty propdictid="place" propid="10" cardinality="one" selected="true">
+																					<ShapeProperties>
+																						<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																						<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+																							<ShapeProperties/>
+																						</ShapeProperty>
+																					</ShapeProperties>
+																				</ShapeProperty>
+																			</ShapeProperties>
+																			<ShapeLinks/>
+																		</ShapeClass>
+																	</ShapeLink>
+																</ShapeLinks>
+															</ShapeClass>
+														</ShapeLink>
+													</ShapeLinks>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="6" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+												<ShapeProperties>
+													<ShapeProperty propdictid="complex-dependencies" propid="1" cardinality="one" selected="true"/>
+												</ShapeProperties>
+												<ShapeClass id="7" classdictid="core" classid="1">
+													<ShapeProperties>
+														<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+															<ShapeProperties/>
+														</ShapeProperty>
+														<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+											<ShapeLink id="7" reldictid="people" relid="2" cardinality="many" effdates="true">
+												<ShapeClass id="8" classdictid="complex-dependencies" classid="5">
+													<ShapeProperties>
+														<ShapeProperty propdictid="complex-dependencies" propid="5" cardinality="many" selected="true">
+															<ShapeProperties>
+																<ShapeProperty propdictid="complex-dependencies" propid="6" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+																<ShapeProperty propdictid="core" propid="14" cardinality="one" selected="true">
+																	<ShapeProperties/>
+																</ShapeProperty>
+															</ShapeProperties>
+														</ShapeProperty>
+													</ShapeProperties>
+													<ShapeLinks/>
+												</ShapeClass>
+											</ShapeLink>
+										</ShapeLinks>
+									</ShapeClass>
+								</ShapeLink>
+							</ShapeLinks>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="8" reldictid="case" relid="2" inverse="true" cardinality="one">
+						<ShapeClass id="9" classdictid="core" classid="3">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="12" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="98" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="6">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="complex-dependencies" propid="1" cardinality="one" selected="true"/>
+						</ShapeProperties>
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="people" relid="2" cardinality="many" effdates="true">
+						<ShapeClass id="3" classdictid="complex-dependencies" classid="5">
+							<ShapeProperties>
+								<ShapeProperty propdictid="complex-dependencies" propid="5" cardinality="many" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="complex-dependencies" propid="6" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="core" propid="14" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="99" ownerid="1" published="false" selectionOf="17">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="6">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="complex-dependencies" relid="6" cardinality="many" effdates="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="complex-dependencies" propid="1" cardinality="one" selected="true"/>
+						</ShapeProperties>
+						<ShapeClass id="2" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="people" relid="2" cardinality="many" effdates="true">
+						<ShapeClass id="3" classdictid="complex-dependencies" classid="5">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="complex-dependencies" propid="5" cardinality="many" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="complex-dependencies" propid="6" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="core" propid="14" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="100" ownerid="1" groupid="4" published="false">
+		<Name>Organisation</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="2">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="7" selected="true" cardinality="many"/>
+					<ShapeProperty propdictid="organisations" propid="1" selected="true" cardinality="many"/>
+				</ShapeProperties>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="101" ownerid="1" published="false" selectionOf="100">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="2">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="organisations" propid="1" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="102" ownerid="1" groupid="4" published="false">
+		<Name>Service</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="7">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="3" selected="true" cardinality="many"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="8" inverse="true" cardinality="one">
+						<ShapeClass id="2" classdictid="core" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="7" selected="true" cardinality="many"/>
+								<ShapeProperty propdictid="organisations" propid="1" selected="true" cardinality="many"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="103" ownerid="1" published="false" selectionOf="102">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="7">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="3" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks/>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="104" ownerid="1" published="false" selectionOf="102">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="core" classid="7">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="3" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="8" inverse="true" cardinality="one">
+						<ShapeClass id="2" classdictid="core" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="7" cardinality="many" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="organisations" propid="1" cardinality="many" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="105" ownerid="1" groupid="10" published="false">
+		<Name>Non Attendance Case</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="school" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="10" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/>
+					<ShapeProperty propdictid="core" propid="3" selected="true" cardinality="one"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="6" cardinality="one">
+						<ShapeClass id="2" classdictid="core" classid="7">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="school" relid="1" cardinality="many">
+						<ShapeClass id="3" classdictid="school" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="school" propid="1" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="3" reldictid="case" relid="3" cardinality="many">
+						<ShapeClass id="4" classdictid="event" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="date-and-time" propid="3" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="3" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="106" ownerid="1" published="false" selectionOf="105">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="school" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="3" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="6" cardinality="one">
+						<ShapeClass id="2" classdictid="core" classid="7">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="school" relid="1" cardinality="many">
+						<ShapeClass id="3" classdictid="school" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="school" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="107" ownerid="1" published="false" selectionOf="105">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="school" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="10" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="3" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="core" relid="6" cardinality="one">
+						<ShapeClass id="2" classdictid="core" classid="7">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="school" relid="1" cardinality="many">
+						<ShapeClass id="3" classdictid="school" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="school" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="3" reldictid="case" relid="3" cardinality="many">
+						<ShapeClass id="4" classdictid="event" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="date-and-time" propid="3" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="3" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="2" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="108" ownerid="1" groupid="4" published="false">
+		<Name>Account</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="account" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="account" relid="2" cardinality="one">
+						<ShapeClass id="2" classdictid="core" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="account" relid="1" cardinality="many">
+						<ShapeClass id="3" classdictid="core" classid="11">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="3" selected="true" cardinality="many"/>
+								<ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="3" reldictid="account" relid="3" cardinality="many">
+						<ShapeClass id="4" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="people" propid="1" selected="true" cardinality="many">
+									<ShapeProperties>
+										<ShapeProperty propdictid="people" propid="2" selected="true" cardinality="one"/>
+										<ShapeProperty propdictid="people" propid="3" selected="true" cardinality="one"/>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="109" ownerid="1" published="false" selectionOf="108">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="account" classid="1">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="account" relid="2" cardinality="one">
+						<ShapeClass id="2" classdictid="core" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="account" relid="3" cardinality="many">
+						<ShapeClass id="3" classdictid="core" classid="1">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="people" propid="1" cardinality="many" selected="true">
+									<ShapeProperties>
+										<ShapeProperty propdictid="people" propid="2" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+										<ShapeProperty propdictid="people" propid="3" cardinality="one" selected="true">
+											<ShapeProperties/>
+										</ShapeProperty>
+									</ShapeProperties>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="110" ownerid="1" published="false" groupid="10">
+		<Name>Student Record</Name>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="school" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="account" relid="3" cardinality="one">
+						<ShapeClass id="2" classdictid="school" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/>
+								<ShapeProperty propdictid="school" propid="1" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="account" relid="2" cardinality="one">
+						<ShapeClass id="3" classdictid="core" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/>
+							</ShapeProperties>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="111" ownerid="1" published="false" selectionOf="110">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="school" classid="3">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="4" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="account" relid="3" cardinality="one">
+						<ShapeClass id="2" classdictid="school" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="8" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="core" propid="9" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+								<ShapeProperty propdictid="school" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+					<ShapeLink id="2" reldictid="account" relid="2" cardinality="one">
+						<ShapeClass id="3" classdictid="core" classid="2">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="112" ownerid="1" published="false" selectionOf="78">
+		<Name/>
+		<Description/>
+		<Selection>
+			<ShapeClass id="1" classdictid="place" classid="6">
+				<ShapeProperties>
+					<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="core" propid="7" cardinality="many" selected="true">
+						<ShapeProperties/>
+					</ShapeProperty>
+					<ShapeProperty propdictid="place" propid="6" cardinality="one" selected="true">
+						<ShapeProperties>
+							<ShapeProperty propdictid="place" propid="7" cardinality="many" selected="true">
+								<ShapeProperties>
+									<ShapeProperty propdictid="place" propid="8" cardinality="one" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+									<ShapeProperty propdictid="place" propid="9" cardinality="one" selected="true">
+										<ShapeProperties/>
+									</ShapeProperty>
+								</ShapeProperties>
+							</ShapeProperty>
+						</ShapeProperties>
+					</ShapeProperty>
+				</ShapeProperties>
+				<ShapeLinks>
+					<ShapeLink id="1" reldictid="place" relid="2" cardinality="many">
+						<ShapeClass id="2" classdictid="place" classid="4">
+							<ShapeProperties>
+								<ShapeProperty propdictid="core" propid="1" cardinality="one" selected="true">
+									<ShapeProperties/>
+								</ShapeProperty>
+							</ShapeProperties>
+							<ShapeLinks/>
+						</ShapeClass>
+					</ShapeLink>
+				</ShapeLinks>
+			</ShapeClass>
+		</Selection>
+	</Shape>
+	<Shape id="113" ownerid="1" groupid="8" published="false">
+		<Name>Complex Case 1</Name>
+		<Description>This uses the new style of Shape</Description>
+		<Selection/>
+	</Shape>
+	<Shape id="114" ownerid="1" groupid="8" published="false">
+		<Name>Complex Case</Name>
+		<Description>uses new version of Shape</Description>
+		<Selection>
+			<ShapeClass id="1" classdictid="complex-dependencies" classid="3" create="true">
+
+				
+			<ShapeProperties><ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/><ShapeProperty propdictid="core" propid="10" selected="true" cardinality="one"/><ShapeProperty propdictid="core" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="core" propid="15" selected="true" cardinality="one"/><ShapeProperty propdictid="case" propid="1" selected="true" cardinality="many"/><ShapeProperty propdictid="complex-dependencies" propid="2" selected="true" cardinality="many"/><ShapeProperty propdictid="complex-dependencies" propid="4" selected="true" cardinality="many"/></ShapeProperties></ShapeClass>
+			<ShapeClass id="2" classdictid="complex-dependencies" classid="6" create="true" select="true" update="true">
+				
+			<ShapeProperties><ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/><ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/><ShapeProperty propdictid="people" propid="1" selected="true" cardinality="many"><ShapeProperties><ShapeProperty propdictid="people" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="people" propid="3" selected="true" cardinality="one"/></ShapeProperties></ShapeProperty><ShapeProperty propdictid="complex-dependencies" propid="5" selected="true" cardinality="many"><ShapeProperties><ShapeProperty propdictid="complex-dependencies" propid="6" selected="true" cardinality="one"/><ShapeProperty propdictid="core" propid="14" selected="true" cardinality="one"/></ShapeProperties></ShapeProperty></ShapeProperties></ShapeClass>
+			<ShapeClass id="3" classdictid="complex-dependencies" classid="4" create="true">
+				
+			<ShapeProperties><ShapeProperty propdictid="core" propid="4" selected="true" cardinality="one"/></ShapeProperties></ShapeClass>
+		
+		<ShapeLink id="1" reldictid="complex-dependencies" relid="7" fromshapeclassid="1" toshapeclassid="3" cardinality="one"/><ShapeLink id="2" reldictid="people" relid="1" fromshapeclassid="3" toshapeclassid="2" cardinality="many" effdates="true"/><ShapeClass id="4" classdictid="land-and-property" classid="1" update="true" create="true" match="true"><ShapeProperties><ShapeProperty propdictid="land-and-property" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="land-and-property" propid="3" selected="true" cardinality="one"/><ShapeProperty propdictid="land-and-property" propid="2" selected="true" cardinality="one"/></ShapeProperties></ShapeClass><ShapeLink id="3" reldictid="people" relid="3" fromshapeclassid="2" toshapeclassid="4" cardinality="many" effdates="true"/><ShapeClass id="5" classdictid="core" classid="1" create="true" select="true" update="true"><ShapeProperties><ShapeProperty propdictid="core" propid="8" selected="true" cardinality="one"/><ShapeProperty propdictid="core" propid="9" selected="true" cardinality="one"/><ShapeProperty propdictid="people" propid="1" selected="true" cardinality="many"><ShapeProperties><ShapeProperty propdictid="people" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="people" propid="3" selected="true" cardinality="one"/></ShapeProperties></ShapeProperty></ShapeProperties></ShapeClass><ShapeLink id="4" reldictid="complex-dependencies" relid="6" fromshapeclassid="2" toshapeclassid="5" cardinality="many" effdates="true"><ShapeProperties><ShapeProperty propdictid="complex-dependencies" propid="1" selected="true"/></ShapeProperties></ShapeLink><ShapeClass id="6" classdictid="core" classid="3" select="true"><ShapeProperties><ShapeProperty propdictid="core" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="organisations" propid="1" selected="true" cardinality="many"/></ShapeProperties></ShapeClass><ShapeLink id="5" reldictid="case" relid="2" fromshapeclassid="1" toshapeclassid="6" inverse="true" cardinality="one"/></Selection>
+	</Shape>
+<Shape id="115" ownerid="2" groupid="7" published="false"><Name>Complex Dependency Case</Name><Description/><Selection><ShapeClass id="1" classdictid="complex-dependency" classid="1" create="true" select="true" update="true"><ShapeProperties><ShapeProperty propdictid="common-properties" propid="3" selected="true" cardinality="one"/><ShapeProperty propdictid="case-and-account" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="common-properties" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="case-and-account" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="case-and-account" propid="3" selected="true" cardinality="one"/><ShapeProperty propdictid="complex-dependency" propid="1" selected="true" cardinality="many"/><ShapeProperty propdictid="complex-dependency" propid="2" selected="true" cardinality="many"/></ShapeProperties></ShapeClass><ShapeClass id="2" classdictid="complex-dependency" classid="2" create="true"/><ShapeLink id="1" reldictid="complex-dependency" relid="1" fromshapeclassid="1" toshapeclassid="2" cardinality="one"/><ShapeClass id="3" classdictid="complex-dependency" classid="3" create="true" select="true"><ShapeProperties><ShapeProperty propdictid="person" propid="1" selected="true" cardinality="many"/><ShapeProperty propdictid="person" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="person" propid="3" selected="true" cardinality="many"><ShapeProperties><ShapeProperty propdictid="person" propid="4" selected="true" cardinality="one"/><ShapeProperty propdictid="person" propid="5" selected="true" cardinality="one"/></ShapeProperties></ShapeProperty><ShapeProperty propdictid="person" propid="6" selected="true" cardinality="one"/></ShapeProperties></ShapeClass><ShapeLink id="2" reldictid="person" relid="1" fromshapeclassid="2" toshapeclassid="3" cardinality="many" effdates="true"/></Selection></Shape><Shape id="116" ownerid="2" groupid="7" published="false"><Name>Complex Dependency Case</Name><Description/><Selection/></Shape><Shape id="117" ownerid="2" groupid="7" published="false"><Name>Complex Dependency Case</Name><Description/><Selection><ShapeClass id="1" classdictid="complex-dependency" classid="1" create="true" select="true" update="true"><ShapeProperties><ShapeProperty propdictid="common-properties" propid="3" selected="true" cardinality="one"/><ShapeProperty propdictid="case-and-account" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="common-properties" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="case-and-account" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="case-and-account" propid="3" selected="true" cardinality="one"/><ShapeProperty propdictid="complex-dependency" propid="1" selected="true" cardinality="many"/><ShapeProperty propdictid="complex-dependency" propid="2" selected="true" cardinality="many"/></ShapeProperties></ShapeClass><ShapeClass id="2" classdictid="organisation" classid="2" create="true" select="true" update="true"><ShapeProperties><ShapeProperty propdictid="common-properties" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="common-properties" propid="5" selected="true" cardinality="many"/><ShapeProperty propdictid="organisation" propid="1" selected="true" cardinality="one"/></ShapeProperties></ShapeClass><ShapeClass id="3" classdictid="complex-dependency" classid="2" create="true"/><ShapeClass id="4" classdictid="complex-dependency" classid="3" create="true" select="true" update="true"><ShapeProperties><ShapeProperty propdictid="person" propid="1" selected="true" cardinality="many"/><ShapeProperty propdictid="person" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="person" propid="3" selected="true" cardinality="many"><ShapeProperties><ShapeProperty propdictid="person" propid="4" selected="true" cardinality="one"/><ShapeProperty propdictid="person" propid="5" selected="true" cardinality="one"/></ShapeProperties></ShapeProperty><ShapeProperty propdictid="person" propid="6" selected="true" cardinality="one"/></ShapeProperties></ShapeClass><ShapeLink id="1" reldictid="complex-dependency" relid="1" fromshapeclassid="1" toshapeclassid="3" cardinality="one"/><ShapeLink id="2" reldictid="person" relid="1" fromshapeclassid="3" toshapeclassid="4" cardinality="many" effdates="true"/></Selection></Shape><Shape id="118" ownerid="1" groupid="4" publish="yes"><Name>Building</Name><Description/><Selection><ShapeClass id="1" classdictid="land-and-property" classid="2" create="true" select="true" update="true"><ShapeProperties><ShapeProperty propdictid="land-and-property" propid="2" selected="true" cardinality="one"/><ShapeProperty propdictid="land-and-property" propid="1" selected="true" cardinality="one"/><ShapeProperty propdictid="land-and-property" propid="3" selected="true" cardinality="one"/></ShapeProperties></ShapeClass></Selection></Shape></Shapes>

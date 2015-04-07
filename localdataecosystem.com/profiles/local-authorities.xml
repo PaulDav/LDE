@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns="http://schema.legsb.gov.uk/lde/profile/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="local-authorities" groupid="5" publish="no" class="1">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-04-25" by="1" name="Local Authorities">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" dictid="core" classid="3" create="true" select="false"/></Classes></Profile>

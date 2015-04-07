@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="street-maintenance" groupid="7" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-04-19" by="1" name="Street Maintenance">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" concept="Case" subClassOf="8" subDictOf="core"><Label>Pot Hole</Label><Heading>Pot Holes</Heading><Description/></Class></Classes></Dictionary>

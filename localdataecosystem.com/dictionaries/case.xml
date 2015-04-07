@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="case" groupid="4" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-06-01" by="1" name="case">
+    <Description/>
+  </Meta>
+<Relationships><Relationship id="1" conceptRelationship="caseHasPlan" cardinality="extend"><Label>has plan</Label><Description/><Inverse><Label>is plan for</Label></Inverse><Subject dict="core" class="8"/><Object dict="plan" class="1"/></Relationship><Relationship id="2" conceptRelationship="hasRoleIn" cardinality="many"><Label>manages</Label><Description/><Inverse><Label>is managed by</Label></Inverse><Subject dict="core" class="2"/><Object dict="core" class="8"/></Relationship><Relationship id="3" conceptRelationship="contains" cardinality="many"><Label>contains</Label><Description/><Inverse><Label>is contained in</Label></Inverse><Subject dict="core" class="8"/><Object dict="event" class="1"/></Relationship></Relationships><Properties><Property id="1" type="simple"><Label>Outcome</Label><Description/><Field><DataType>line</DataType><Length></Length></Field></Property></Properties></Dictionary>

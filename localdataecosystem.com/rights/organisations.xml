@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Organisations xmlns="http://schema.legsb.gov.uk/lde/rights/">
+	<Organisation id="1" userid="1">
+		<Name>Hampshire County Council</Name>
+		<Description>A County</Description>
+		<URI/>
+		<WebSite>http://www.hants.gov.uk</WebSite>
+		<HasDefs>
+			<HasDef id="1" userid="1" defid="2" deftypeid="40" dateFrom="2000-01-01" dateTo="2014-06-08">
+				<URL/>
+				<Reference>xxx ref</Reference>
+			</HasDef>
+			<HasDef id="2" userid="1" defid="4" deftypeid="50" dateFrom="2010-04-01">
+				<URL/>
+				<Reference>HCC-PSN-CC-1</Reference>
+			</HasDef>
+		</HasDefs>
+	</Organisation>
+	<Organisation id="2" userid="1">
+		<Name>Utopia Council</Name>
+		<Description/>
+		<URI/>
+		<WebSite/>
+	<HasDefs><HasDef id="1" userid="1" defid="2" deftypeid="40" dateFrom="2014-07-07" dateTo="2014-11-05"><URL/><Reference>112233</Reference></HasDef><HasDef id="2" userid="1" defid="4" deftypeid="50"><URL/><Reference/></HasDef></HasDefs></Organisation>
+	<Organisation id="3" userid="1">
+		<Name>LDE Masterdata</Name>
+		<Description/>
+		<URI/>
+		<WebSite/>
+	</Organisation>
+<Organisation id="4" userid="1"><Name>Learning Secondary School</Name><Description/><URI/><WebSite/></Organisation></Organisations>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="community-impact" groupid="11" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-10-02" by="1" name="Community Impact">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" concept="Place" subClassOf="3" subDictOf="place"><Label>Community Area</Label><Heading>Community Areas</Heading><Description/><Source/></Class></Classes></Dictionary>

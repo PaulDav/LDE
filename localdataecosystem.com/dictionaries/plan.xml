@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="plan" groupid="4" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-06-01" by="1" name="plan">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" concept="Plan"><Label>plan</Label><Heading>Plans</Heading><Description/><Source/><ClassProperties><ClassProperty id="1" propid="1" cardinality="optional" useAsName="false" useAsIdentifier="false"/></ClassProperties></Class></Classes><Properties><Property id="1" type="simple"><Label>Target Date</Label><Description/><Field><DataType>date</DataType><Length/></Field></Property></Properties></Dictionary>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="planningregister" groupid="5" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-03-30" by="1" name="PlanningRegister">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" concept="Organization" subClassOf="3" subDictOf="core"><Label>Planning Authority</Label><Heading>Planning Authorities</Heading><Description/><ClassProperties/></Class><Class id="2" concept="Service" subClassOf="7" subDictOf="core"><Label>Planning Service</Label><Heading>Planning Services</Heading><Description/></Class><Class id="3" concept="Case" subClassOf="8" subDictOf="core"><Label>Planning Application</Label><Heading>Planning Applications</Heading><Description/><ClassProperties><ClassProperty id="1" propid="1" cardinality="mandatory" useAsName="false" useAsIdentifier="true"/><ClassProperty id="2" propid="2" cardinality="mandatory"/><ClassProperty id="4" propid="4" cardinality="optional"/>
+
+	<ClassProperty id="5" propid="5" cardinality="mandatory">
+		<PropertyLists>
+			<PropertyList listid="1"/>
+		</PropertyLists>
+	</ClassProperty>
+
+
+<ClassProperty id="6" propid="6" cardinality="mandatory"><PropertyLists><PropertyList listid="2"/></PropertyLists></ClassProperty><ClassProperty id="7" propid="7" cardinality="mandatory"><PropertyLists><PropertyList listid="3"/></PropertyLists></ClassProperty><ClassProperty id="8" propid="10" cardinality="mandatory" useAsName="false" useAsIdentifier="false"/></ClassProperties></Class><Class id="4" concept="Decision" subClassOf="9" subDictOf="core"><Label>Planning Application Decision</Label><Heading>Planning Application Decisions</Heading><Description/><ClassProperties><ClassProperty id="1" propid="9" cardinality="mandatory"><PropertyLists><PropertyList listid="4"/></PropertyLists></ClassProperty></ClassProperties></Class><Class id="5" concept="Decision" subClassOf="9" subDictOf="core"><Label>Appeal Decision</Label><Heading>Appeal Decisions</Heading><Description/><ClassProperties><ClassProperty id="1" propid="9" cardinality="mandatory"><PropertyLists><PropertyList listid="4"/></PropertyLists></ClassProperty></ClassProperties></Class></Classes><Relationships><Relationship id="3" conceptRelationship="subjectOf" cardinality="extend"><Label>has decision</Label><Description/><Inverse><Label>decision of</Label></Inverse><Subject class="3"/><Object class="4"/></Relationship><Relationship id="4" conceptRelationship="subjectOf" cardinality="extend"><Label>has appeal decision</Label><Description/><Inverse><Label>is appeal decision of</Label></Inverse><Subject class="3"/><Object class="5"/></Relationship></Relationships><Properties><Property id="1" subPropertyOf="4" subDictOf="core" type="simple"><Label>Planning Application Reference</Label><Description>Reference given to an application on validation within authority's planning system. Often made up of combination of type of application, year and a sequential number.</Description><Field><DataType>line</DataType><Length>20</Length></Field></Property>
+
+<Property id="2" subPropertyOf="2" subDictOf="core" type="simple"><Label>Proposal</Label><Description>The proposed planning activity taking place at the location.</Description><Field><DataType>text</DataType><Length/></Field></Property>
+
+<Property id="3" type="simple"><Label>Received Date</Label><Description>The date the application was received by the authority. Can differ to valid date if an application does not include all the information required at submission.</Description><Field><DataType>date</DataType><Length/></Field></Property><Property id="4" type="simple" subPropertyOf="10" subDictOf="core"><Label>Date of Valid Application</Label><Description>Date the application was deemed valid by the registering authority, not necessarily the date the application was submitted.</Description><Field><DataType>date</DataType><Length/></Field></Property>
+
+
+<Property id="5" type="simple">
+	<Label>Application Type</Label>
+	<Description>Type of application submitted, can represent Full, Outline, Listed Building etc. More can be found here http://www.planningportal.gov.uk/planning/applications/howtoapply/permissiontypes</Description>
+	<Field>
+		<DataType>value</DataType>
+		<Length/>
+	</Field>
+</Property>
+<Property id="6" subPropertyOf="5" subDictOf="core" type="simple"><Label>Application Status</Label><Description/><Field><DataType>value</DataType><Length/></Field></Property><Property id="7" type="simple"><Label>Decision Type</Label><Description/><Field><DataType>value</DataType><Length/></Field></Property><Property id="8" type="simple"><Label>Location</Label><Description/><Field><DataType>text</DataType><Length>50</Length></Field></Property><Property id="9" type="simple" subPropertyOf="2" subDictOf="core"><Label>Decision Outcome</Label><Description/><Field><DataType>value</DataType><Length/></Field></Property><Property id="10" type="simple" subPropertyOf="3" subDictOf="core"><Label>Application Classification</Label><Description/><Field><DataType>line</DataType><Length></Length></Field></Property></Properties>
+
+
+<Lists><List id="1"><Label>Planning Application Types</Label><Description>Type of application submitted, can represent Full, Outline, Listed Building etc</Description><Source>Planning Portal</Source><DescribedAt>http://www.planningportal.gov.uk/planning/applications/howtoapply/permissiontypes</DescribedAt><ListValues><ListValue id="1" valueid="1"/><ListValue id="2" valueid="2"/><ListValue id="3" valueid="3"/><ListValue id="4" valueid="4"/><ListValue id="5" valueid="5"/><ListValue id="6" valueid="6"/><ListValue id="7" valueid="7"/><ListValue id="8" valueid="8"/><ListValue id="9" valueid="9"/><ListValue id="10" valueid="10"/><ListValue id="11" valueid="11"/><ListValue id="12" valueid="12"/><ListValue id="13" valueid="13"/></ListValues></List><List id="2"><Label>Planning Application Status</Label><Description/><Source/><DescribedAt/><ListValues><ListValue id="1" valueid="14"/><ListValue id="2" valueid="15"/><ListValue id="3" valueid="16"/><ListValue id="4" valueid="17"/></ListValues></List><List id="3"><Label>Decision Types</Label><Description/><Source/><DescribedAt/><ListValues><ListValue id="1" valueid="18"/><ListValue id="2" valueid="19"/><ListValue id="3" valueid="22"/></ListValues></List><List id="4"><Label>Decision Outcomes</Label><Description/><Source/><DescribedAt/><ListValues><ListValue id="1" valueid="20"/><ListValue id="2" valueid="21"/></ListValues></List></Lists>
+
+
+
+
+<Values><Value id="1"><Label>Householder Planning Consent</Label><Description>This form should be used for proposals to alter or enlarge a single house, including works within the boundary/garden of a house. It should be used for projects such as:&#13;
+&#13;
+Extensions&#13;
+Conservatories&#13;
+Loft conversions&#13;
+Dormer windows&#13;
+Garages, car ports and outbuildings&#13;
+Please note that planning permission is not needed for all household building work. Under permitted development rules you can carry out a number of household building work projects, provided they meet certain limits and conditions. You can find out whether you need planning permission for your building project by viewing the Portal's Interactive House</Description><Code/><URI/></Value><Value id="2"><Label>Full Planning Consent</Label><Description>You should use this application form to make a detailed planning application for development, excluding householder developments. For the purposes of this form, development includes building, engineering or other works, in, on, over or under land, or the making of any material change in the use of any buildings or other land. As such it should be used for:&#13;
+&#13;
+Any works relating to a flat&#13;
+Applications to change the number of dwellings (flat conversions, building a separate house in the garden)&#13;
+Changes of use to part or all of the property to non-residential (including business) uses&#13;
+Anything outside the garden of the property (including stables if in a separate paddock)&#13;
+Find out more about Full planning consent [PDF]</Description><Code/><URI/></Value><Value id="3"><Label>Outline Planning Consent</Label><Description>Applications for outline planning permission seek to establish whether the scale and nature of a proposed development would be acceptable to the local planning authority, before a fully detailed proposal is put forward.&#13;
+&#13;
+This type of planning application allows fewer details about the proposal to be submitted. Once outline permission has been granted, you will need to ask for approval of the details (“reserved matters”) before work can start. These details will be the subject of a “reserved matters” application at a later stage. You can make an application for reserved matters online via the Planning Portal. Learn more here. &#13;
+&#13;
+Find out more about Outline planning consent [PDF]</Description><Code/><URI/></Value><Value id="4"><Label>Conservation Area Consent</Label><Description>If you live in a conservation area, you will need planning permission for relevant demolition in a conservation area to do the following:&#13;
+&#13;
+Demolish a building with a volume of more than 115 cubic metres. There are a few exceptions - you can get further information from the relevant council.&#13;
+To demolish a gate, fence, wall or railing more than one metre high next to a highway (including a public footpath or bridleway) or public open space; or more than two metres high elsewhere&#13;
+There are certain exemptions from the general requirement to seek planning permission for relevant demolition in a conservation area for the demolition of buildings in conservation areas. They are listed in paragraph 31 of circular 01/01.[PDF]&#13;
+Find out more about planning permission for relevant demolition in a conservation area [PDF]</Description><Code/><URI/></Value><Value id="5"><Label>Reserved Matters</Label><Description>Where outline permission has been granted, you may, within three years of the outline approval, make an application for the outstanding reserved matters, i.e. the information excluded from the initial outline planning application. This will typically include information about the layout, access, scale and appearance of the development.&#13;
+&#13;
+In October 2009, the Government introduced an application to extend the time limits for planning permission, including outline permissions. Learn more about here.&#13;
+&#13;
+Find out more about reserved matters [PDF]</Description><Code/><URI/></Value><Value id="6"><Label>Listed Building Consent</Label><Description>You will need to apply for listed building consent if either of the following cases apply:&#13;
+&#13;
+You want to demolish a listed building&#13;
+You want to alter or extend a listed building in a manner which would affect its character as a building of special architectural or historic interest&#13;
+You may also need listed building consent for any works to separate buildings within the grounds of a listed building. Check the position carefully with the council - it is a criminal offence to carry out work which needs listed building consent without obtaining it beforehand.&#13;
+&#13;
+Find out more about Listed Building Consent [PDF]</Description><Code/><URI/></Value><Value id="7"><Label>Advertisement Consent</Label><Description>This form should be used for proposals to display an advertisement or sign which requires planning permission. The term advertisement covers a very wide range of advertisements and signs including:&#13;
+&#13;
+Posters and notices&#13;
+Placards and boards&#13;
+Fascia signs and projecting signs&#13;
+Pole signs and canopy signs&#13;
+Models and devices&#13;
+Advance signs and directional signs&#13;
+Estate agents' boards&#13;
+Captive balloon advertising (not balloons in flight)&#13;
+Flag advertisements&#13;
+Price markers and price displays&#13;
+Traffic signs&#13;
+Town and village name-signs</Description><Code/><URI/></Value><Value id="8"><Label>Lawful Development Certificate (LDC)</Label><Description>For peace of mind that an existing or proposed use of a building is lawful or that the proposal doesn’t require planning permission, you can apply for a lawful development certificate.</Description><Code/><URI/></Value><Value id="9"><Label>Prior notification</Label><Description>Some proposals for developments involving telecommunications, demolition, agriculture or forestry are subject to a process whereby details are notified to the local planning authority prior to the development taking place.</Description><Code/><URI/></Value><Value id="10"><Label>Removal/Variation of Conditions</Label><Description>This form should be used to make an application for the removal or variation of a condition following the grant of planning permission or listed building consent.</Description><Code/><URI/></Value><Value id="11"><Label>Approval of conditions</Label><Description>This type of application will be necessary where a condition in a planning permission or a listed building consent requires details of a specified aspect of the development which was not fully described in the original application. These details need to be submitted for approval before the development can begin.</Description><Code/><URI/></Value><Value id="12"><Label>Consent under Tree Preservation Orders</Label><Description>This application applies to proposed work to trees subject to a Tree Preservation Order (TPO).</Description><Code/><URI/></Value><Value id="13"><Label>Notification of proposed works to trees in conservation areas</Label><Description>In conservation areas, notice is required for works to trees that have a trunk diameter of more than 75mm when measured at 1.5m from ground level (or more than 100mm if reducing the number of trees to benefit the growth of other trees).&#13;
+&#13;
+You have to give your local planning authority six weeks’ notice before carrying out work on trees which are located in a conservation area but are not yet the subject of a tree preservation order. This gives the authority an opportunity to consider whether an order should be made to protect the trees.</Description><Code/><URI/></Value><Value id="14"><Label>Pending</Label><Description/><Code/><URI/></Value><Value id="15"><Label>Withdrawn</Label><Description/><Code/><URI/></Value><Value id="16"><Label>Decided</Label><Description/><Code/><URI/></Value><Value id="17"><Label>Appealed</Label><Description/><Code/><URI/></Value><Value id="18"><Label>Delegated Powers</Label><Description/><Code/><URI/></Value><Value id="19"><Label>Planning Committee</Label><Description/><Code/><URI/></Value><Value id="20"><Label>Permitted</Label><Description/><Code/><URI/></Value><Value id="21"><Label>Refused</Label><Description/><Code/><URI/></Value><Value id="22"><Label>Case Officer</Label><Description/><Code/><URI/></Value></Values></Dictionary>

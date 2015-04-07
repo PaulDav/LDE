@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="housing-benefits" groupid="9" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-05-13" by="1" name="Housing Benefits">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" concept="Person" subClassOf="1" subDictOf="core"><Label>Applicant</Label><Heading>Applicants</Heading><Description>Applicant for Housing Benefits</Description><Source/><ClassProperties><ClassProperty id="1" propid="1" cardinality="mandatory" useAsName="false" useAsIdentifier="true"/></ClassProperties></Class></Classes><Properties><Property id="1" type="simple"><Label>National Insurance Number</Label><Description/></Property></Properties></Dictionary>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Specs xmlns="http://schema.legsb.gov.uk/lde/spec/">
+	<Spec id="1" ownerid="1" groupid="5" published="false" profileid="1"
+		filetype="csv">
+		<Name>Import for Plan Apps</Name>
+		<Description />
+		<Fields>
+
+
+
+			<Field name="class_1_field_1_occ_1" col="6" />
+			<Field name="class_1_field_2_occ_1" col="13" />
+			<Field name="class_1_field_3_occ_1" col="8" />
+			<Field name="class_1_field_4_occ_1" col="10" translation="1" />
+			<Field name="class_1_field_5_occ_1" col="16" translation="2" />
+			<Field name="class_1_field_6_occ_1" col="23" translation="3" />
+			<Field name="class_1_field_7_occ_1" col="12" />
+			<Field name="class_1_field_8_occ_1" col="7" />
+			<Field name="class_1_link_1_occ_0_class_2_field_1_occ_1" col="17" />
+			<Field name="class_1_link_1_occ_0_class_2_field_2_occ_1" col="18" />
+			<Field name="class_1_link_1_occ_0_class_2_field_3_occ_1" col="19" />
+			<Field name="class_1_link_1_occ_0_class_2_field_4_occ_1" col="14" />
+			<Field name="class_1_link_2_occ_0_class_3_field_1_occ_1" col="22"
+				translation="4" />
+			<Field name="class_1_link_2_occ_0_class_3_field_3_occ_1" col="24" />
+		</Fields>
+		<Translations>
+			<Translation id="1" listdictid="planningregister" listid="1">
+				<Name>HCC Planning Application Types</Name>
+				<Description />
+				<Items>
+					<Item id="1">
+						<FromValue>FUL</FromValue>
+						<ToValue>Full Planning Consent</ToValue>
+					</Item>
+					<Item id="2">
+						<FromValue>LAW</FromValue>
+						<ToValue>Lawful Development Certificate (LDC)</ToValue>
+					</Item>
+					<Item id="3">
+						<FromValue>VAR</FromValue>
+						<ToValue>Removal/Variation of Conditions</ToValue>
+					</Item>
+				</Items>
+			</Translation>
+			<Translation id="2" listdictid="planningregister" listid="2">
+				<Name>HCC Planning Application Status</Name>
+				<Description />
+				<Items>
+					<Item id="4">
+						<FromValue>Decided</FromValue>
+						<ToValue>Decided</ToValue>
+					</Item>
+					<Item id="5">
+						<FromValue>Withdrawn</FromValue>
+						<ToValue>Withdrawn</ToValue>
+					</Item>
+					<Item id="6">
+						<FromValue>Pending</FromValue>
+						<ToValue>Pending</ToValue>
+					</Item>
+				</Items>
+			</Translation>
+			<Translation id="3" listdictid="planningregister" listid="3">
+				<Name>HCC Decision Type</Name>
+				<Description />
+				<Items>
+					<Item id="7">
+						<FromValue>Case officer</FromValue>
+						<ToValue>Case Officer</ToValue>
+					</Item>
+					<Item id="8">
+						<FromValue>Planning committee</FromValue>
+						<ToValue>Planning Committee</ToValue>
+					</Item>
+				</Items>
+			</Translation>
+			<Translation id="4" listdictid="planningregister" listid="4">
+				<Name>HCC Planning Applications Decision</Name>
+				<Description />
+				<Items>
+					<Item id="9">
+						<FromValue>Granted</FromValue>
+						<ToValue>Permitted</ToValue>
+					</Item>
+					<Item id="10">
+						<FromValue>Refused</FromValue>
+						<ToValue>Refused</ToValue>
+					</Item>
+				</Items>
+			</Translation>
+		</Translations>
+	</Spec>
+	<Spec id="3" ownerid="1" groupid="7" published="false" profileid="2"
+		filetype="csv">
+		<Name>Pot Holes A</Name>
+		<Description />
+		<Fields>
+			<Field name="class_1_field_1_occ_1" col="1" />
+			<Field name="class_1_field_2_occ_1" col="2" />
+			<Field name="class_1_field_3_occ_1" col="3" />
+			<Field name="class_1_link_1_occ_0_class_2_field_1_occ_1"
+				default="WGS84" />
+			<Field name="class_1_link_1_occ_0_class_2_field_2_occ_1" col="8" />
+			<Field name="class_1_link_1_occ_0_class_2_field_3_occ_1" col="9" />
+		</Fields>
+	</Spec>
+</Specs>

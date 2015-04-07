@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="land-and-property" groupid="4" publish="no">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-07-21" by="1" name="Land and Property">
+		<Description/>
+	</Meta>
+	<Classes>
+		<Class id="1" concept="Object">
+			<Label>Living Accommodation</Label>
+			<Heading>Living Accommodation</Heading>
+			<Description>Examples of what is clearly living accommodation are
+				houses, flats, houseboats, holiday villas and apartments.&#13;
+				&#13;
+				By contrast it does not cover accommodation in a hotel room, other
+				forms of board and lodging and non-residential accommodation such as
+				a workshop, garage or office. These items are all accommodation
+				(other than living accommodation).</Description>
+			<Source>http://www.hmrc.gov.uk/manuals/eimanual/eim11321.htm</Source>
+			<ClassProperties>
+				
+				<ClassProperty id="1" propid="1" cardinality="mandatory" useAsName="true" useAsIdentifier="false"/>
+				<ClassProperty id="3" propid="3" useAsName="false" useAsIdentifier="false" cardinality="one"/><ClassProperty id="2" propid="2" cardinality="mandatory" useAsName="false" useAsIdentifier="true"/>
+			</ClassProperties>
+		<SameAsClasses><SameAsClass classid="2"/></SameAsClasses></Class>
+	<Class id="2" concept="Building"><Label>Building</Label><Heading>Buildings</Heading><Description>Physical and Permanent man made structure to provide shelter.</Description><Source/><ClassProperties><ClassProperty id="1" propid="2" cardinality="one" useAsName="false" useAsIdentifier="true"/><ClassProperty id="2" propid="1" cardinality="one" useAsName="true" useAsIdentifier="false"/><ClassProperty id="3" propid="3" cardinality="one" useAsName="false" useAsIdentifier="false"/></ClassProperties></Class></Classes>
+	<Properties>
+		<Property id="1" type="simple">
+			<Label>Address</Label>
+			<Description>a direction as to the intended recipient, written on or
+				attached to a piece of mail.</Description>
+			<Field>
+				<DataType>text</DataType>
+				<Length>40</Length>
+			</Field>
+		</Property>
+		<Property id="2" type="simple">
+			<Label>UPRN</Label>
+			<Description>Unique Property Reference Number.&#13;
+				&#13;
+A unique twelve digit number assigned to every unit of land and property recorded by local government, who have a statutory obligation to record all changes in property details, including all new builds.&#13;
+				&#13;
+Every property in Great Britain has a UPRN and	because they are distributed centrally, once used, that UPRN can never be repeated, which ensures the consistent accuracy of address data.</Description>
+			<Field>
+				<DataType>line</DataType>
+				<Length>12</Length>
+			</Field>
+		</Property>
+		<Property id="3" type="simple">
+			<Label>Post Code</Label>
+			<Description>http://www.oxforddictionaries.com/definition/english/postcode&#13;
+				&#13;
+				http://www.ordnancesurvey.co.uk/business-and-government/products/code-point-open.html</Description>
+			<Field>
+				<DataType>line</DataType>
+				<Length>8</Length>
+			</Field>
+		</Property>
+	</Properties>
+	<Relationships>
+		<Relationship id="1" conceptRelationship="atPlace" cardinality="one" extending="true">
+			<Label>at</Label>
+			<Description/>
+			<Inverse>
+				<Label>of</Label>
+			</Inverse>
+			<Subject class="1"/>
+			<Object dict="place" class="1"/>
+		</Relationship>
+	<Relationship id="2" conceptRelationship="atPlace" cardinality="one" extending="true"><Label>at</Label><Description/><Inverse><Label>of</Label></Inverse><Subject class="2"/><Object dict="place" class="1"/></Relationship></Relationships>
+</Dictionary>

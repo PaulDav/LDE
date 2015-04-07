@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns="http://schema.legsb.gov.uk/lde/profile/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="people-relationships" groupid="8" publish="no" class="1">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-05-04" by="1" name="People Relationships">
+		<Description/>
+	</Meta>
+	<Classes>
+		<Class id="1" dictid="core" classid="1" create="true" select="true">
+			<Relationships>
+				<Relationship id="1" dictid="complex-dependencies" relid="2" inverse="true" cardinality="many" class="2"/>
+				<Relationship id="2" dictid="complex-dependencies" relid="3" cardinality="many" class="3"/>
+				<Relationship id="3" dictid="complex-dependencies" relid="4" cardinality="many" class="4"/>
+			<Relationship id="4" dictid="complex-dependencies" relid="6" cardinality="once" class="5"/></Relationships>
+		</Class>
+		<Class id="2" dictid="core" classid="1" create="false" select="true"/>
+		<Class id="3" dictid="core" classid="1" create="true" select="true"/>
+		<Class id="4" dictid="core" classid="1" create="true" select="true"/>
+	<Class id="5" dictid="core" classid="1" create="true" select="true"/></Classes>
+</Profile>

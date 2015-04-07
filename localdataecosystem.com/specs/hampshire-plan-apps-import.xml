@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spec xmlns="http://schema.legsb.gov.uk/lde/spec/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="hampshire-plan-apps-import" groupid="5" profileid="planning-applications" publish="no" filetype="csv">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-05-14" by="1" name="Hampshire plan apps import">
+
+		
+	<Description>Import for Hampshire csv file v1</Description></Meta>
+	<Fields>
+		<Field name="class_1_rel_5_occ_0_class_8_field_1_occ_1" col="18"/>
+		<Field name="class_1_rel_5_occ_0_class_8_field_2_occ_1" col="19"/>
+		<Field name="class_1_rel_5_occ_0_class_8_field_3_occ_1" col="14"/>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<Field name="class_1_field_1_occ_1" col="6"/><Field name="class_1_field_2_occ_1" col="13"/><Field name="class_1_field_3_occ_1" col="8"/><Field name="class_1_field_4_occ_1" col="10" translation="1"/><Field name="class_1_field_5_occ_1" col="16"/><Field name="class_1_field_6_occ_1" col="23" translation="2"/><Field name="class_1_field_7_occ_1" col="12"/><Field name="class_1_field_8_occ_1" col="7"/><Field name="class_1_rel_2_occ_0_class_3_field_1_occ_1" col="22"/><Field name="class_1_rel_2_occ_0_class_3_field_3_occ_1" col="24"/><Field name="class_1_rel_5_occ_0_class_9_field_1_occ_1" col="17"/><Field name="class_1_rel_5_occ_0_class_9_field_2_occ_1" col="18"/><Field name="class_1_rel_5_occ_0_class_9_field_3_occ_1" col="19"/><Field name="class_1_rel_5_occ_0_class_9_field_4_occ_1" col="14"/><Field name="class_1_rel_6_occ_0_class_10_field_1_occ_1" col="15"/></Fields>
+	<Translations>
+		<Translation id="1" listdictid="planningregister" listid="1">
+			<Name>Application Type</Name>
+			<Description>look up to Application Type list</Description>
+		<Items><Item id="1"><FromValue>VAR</FromValue><ToValue>Removal/Variation of Conditions</ToValue></Item><Item id="2"><FromValue>FUL</FromValue><ToValue>Full Planning Consent</ToValue></Item><Item id="3"><FromValue>LAW</FromValue><ToValue>Lawful Development Certificate (LDC)</ToValue></Item><Item id="4"><FromValue>ADV</FromValue><ToValue>Advertisement Consent</ToValue></Item></Items></Translation>
+	</Translations>
+<Translations><Translation id="2" listdictid="planningregister" listid="3"><Name>Decision Type</Name><Description/><Items><Item id="5"><FromValue>Delegated by officer</FromValue><ToValue>Case Officer</ToValue></Item><Item id="6"><FromValue>Committee</FromValue><ToValue>Planning Committee</ToValue></Item></Items></Translation></Translations></Spec>

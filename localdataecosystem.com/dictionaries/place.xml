@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="place" groupid="4" publish="no">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-04-22" by="1" name="Place">
+		<Description/>
+	</Meta>
+	<Classes>
+		<Class id="1" concept="Place">
+			<Label>Point Location</Label>
+			<Heading>Point Locations</Heading>
+			<Description>A point that can be identified by a pair of co-ordinates</Description>
+			<ClassProperties>
+				
+				
+				
+				
+			<ClassProperty id="5" propid="10" cardinality="one" useAsName="false" useAsIdentifier="false"/><ClassProperty id="4" propdictid="core" propid="2" useAsName="false" useAsIdentifier="false" cardinality="one"/></ClassProperties>
+			<Source/>
+			<Visualizer typeid="1">
+				<Params>
+					<Param num="1" propdictid="place" propid="5"/>
+					<Param num="2" propdictid="place" propid="1"/>
+					<Param num="3" propdictid="place" propid="2"/>
+				</Params>
+			</Visualizer>
+		</Class>
+		<Class id="2" concept="Place">
+			<Label>Area</Label>
+			<Heading>Areas</Heading>
+			<Description>Geographic extent known by a name</Description>
+			<Source/>
+			<ClassProperties>
+				<ClassProperty id="1" propdictid="core" propid="1" cardinality="mandatory" useAsName="true" useAsIdentifier="false"/>
+			<ClassProperty id="2" propdictid="core" propid="7" cardinality="many" useAsName="false" useAsIdentifier="false"/></ClassProperties>
+		</Class>
+	<Class id="3" concept="Place" subClassOf="2"><Label>Designated Area</Label><Heading>Designated Areas</Heading><Description/><Source/><ClassProperties><ClassProperty id="1" propid="6" cardinality="one" useAsName="false" useAsIdentifier="false"/></ClassProperties></Class><Class id="4" concept="Place" subClassOf="7"><Label>Council Area</Label><Heading>Council Areas</Heading><Description>The area administered by a Council</Description><Source/></Class><Class id="5" concept="Place" subClassOf="7"><Label>Ward</Label><Heading>Wards</Heading><Description>An administrative division of a city or borough that typically elects and is represented by a councillor or councillors:</Description><Source>http://www.oxforddictionaries.com/definition/english/ward</Source></Class><Class id="6" concept="Place" subClassOf="3"><Label>Neighbourhood Area</Label><Heading>Neighbourhood Areas</Heading><Description>A small local geographic area defining a community</Description><Source>http://www.oxforddictionaries.com/definition/english/neighbourhood&#13;
+http://en.wikipedia.org/wiki/Neighbourhood</Source></Class><Class id="7" concept="Place" subClassOf="3"><Label>Administrative Geography</Label><Heading>Administrative Geographies</Heading><Description/><Source/></Class><Class id="8" concept="Place" subClassOf="3"><Label>Statistical Geography</Label><Heading>Statistical Geographies</Heading><Description/><Source/></Class><Class id="9" concept="Place" subClassOf="3"><Label>Settlement</Label><Heading>Settlements</Heading><Description>A settlement can range in size from a small number of dwellings grouped together to the largest of cities with surrounding urbanized areas. The term may include hamlets, villages, towns and cities.</Description><Source>http://en.wikipedia.org/wiki/Human_settlement</Source></Class><Class id="10" concept="Place" subClassOf="8"><Label>Super Output Area</Label><Heading>Super Output Areas</Heading><Description>A geography for the collection and publication of small area statistics.</Description><Source>http://neighbourhood.statistics.gov.uk/HTMLDocs/nessgeography/superoutputareasexplained/output-areas-explained.htm</Source></Class></Classes>
+	<Properties>
+		<Property id="1" type="simple">
+			<Label>x-coordinate</Label>
+			<Description/>
+			<Field>
+				<DataType>number</DataType>
+				<Length>10</Length>
+			</Field>
+		</Property>
+		<Property id="2" type="simple">
+			<Label>y-coordinate</Label>
+			<Description/>
+			<Field>
+				<DataType>number</DataType>
+				<Length>10</Length>
+			</Field>
+		</Property>
+		<Property id="5" type="simple">
+			<Label>Coordinate Reference System</Label>
+			<Description/>
+			<Field>
+				<DataType>value</DataType>
+				<Length/>
+			</Field>
+		<PropertyLists><PropertyList listid="1"/></PropertyLists></Property>
+		<Property id="6" type="complex">
+			<Label>Boundary</Label>
+			<Description>A line around an area.</Description>
+			<ElementGroups>
+				<ElementGroup><Element dictid="place" propid="7" cardinality="many"/></ElementGroup>
+			</ElementGroups>
+		</Property>
+		<Property id="7" type="complex">
+			<Label>Vertex</Label>
+			<Description>A corner point of a polygon</Description>
+			<ElementGroups>
+				
+			<ElementGroup><Element dictid="place" propid="10" cardinality="one"/></ElementGroup></ElementGroups>
+		</Property>
+	<Property id="8" type="simple" subPropertyOf="2"><Label>Latitude</Label><Description>Specifies the north-south position of a point on the Earth's surface defined in the WGS84 Coordinate Reference System.</Description><Field><DataType>number</DataType><Length>10</Length></Field></Property><Property id="9" type="simple" subPropertyOf="1"><Label>Longtitude</Label><Description>Specifies the east-west position of a point on the Earth's surface, defined using the WGS84 coordinate reference system.</Description><Field><DataType>number</DataType><Length>10</Length></Field></Property><Property id="10" type="complex"><Label>Point Coordinates</Label><Description>A pair of coordinates identifying a position in a plane.</Description><ElementGroups><ElementGroup><Element dictid="place" propid="5" cardinality="one"/><Element dictid="place" propid="1" cardinality="one"/><Element dictid="place" propid="2" cardinality="one"/></ElementGroup><ElementGroup><Element dictid="place" propid="8" cardinality="one"/><Element dictid="place" propid="9" cardinality="one"/></ElementGroup></ElementGroups></Property></Properties>
+	<Lists>
+		<List id="1">
+			<Label>Coordinate Reference Systems</Label>
+			<Description/>
+			<Source/>
+			<DescribedAt/>
+			<ListValues>
+				<ListValue id="1" valueid="1"/>
+				<ListValue id="2" valueid="2"/>
+			</ListValues>
+		</List>
+	</Lists>
+	<Values>
+		<Value id="1">
+			<Label>WGS84</Label>
+			<Description>World Geodetic System (WGS). Coordinates a Latitude and
+				Longitude</Description>
+			<Code/>
+			<URI/>
+		</Value>
+		<Value id="2">
+			<Label>OSGB36</Label>
+			<Description>Ordnance Survey National Grid. Coordinated described as
+				Easting and Northing.</Description>
+			<Code/>
+			<URI/>
+		</Value>
+	</Values>
+<Relationships><Relationship id="1" conceptRelationship="containedIn" cardinality="many"><Label>contained in</Label><Description/><Inverse><Label>contains</Label></Inverse><Subject class="1"/><Object class="2"/></Relationship><Relationship id="2" conceptRelationship="containedIn" cardinality="many"><Label>contained in</Label><Description/><Inverse><Label>contains</Label></Inverse><Subject class="2"/><Object class="2"/></Relationship></Relationships></Dictionary>

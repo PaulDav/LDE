@@ -1,0 +1,302 @@
+<ConceptModelling xmlns="http://www.smartcityconceptmodel.com/schemas/ConceptModelling"><Models><Model id="10" parent="true"><Name>Smart City Concept Model</Name><Version>0.0.0</Version><Description>A city, wishing to share data between organisations and with its citizens, will want to use consistent identifiers to refer to the same thing.</Description><URL>http://www.smartcityconceptmodel.com</URL><Concepts><Concept id="182" revision="1"><Name>Abstract</Name><Namespace id="1"/><Definition>Existing in thought or as an idea but not having a physical existence.</Definition><Examples>* Fear of Crime
+* Knowledge</Examples><Type>Group</Type><SuperConcepts><Concept id="166"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/abstract</URL></DefinitionReference><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Abstract_object</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-28</Date><By>Paul Davidson</By><Revision>1</Revision><Change>Created</Change></LogEntry></Log></Concept><Concept id="173" revision="3"><Name>Account</Name><Namespace id="1"/><Definition>A container of information, held by an AGENT, in which to record data arising from EVENTs that relate to an ITEM in a role.</Definition><Description>One of the Oxford Dictionaries definitions of ACCOUNT is "a report or description of an event or experience".
+
+An ACCOUNT then is a collection of information that relates to one or more EVENTs.  Those EVENTs will have an ITEM in common in a role and thus the ACCOUNT becomes a history of information about that role.</Description><Examples>* A Customer Account at a business
+* The history of a Building
+* Regular welfare payments to a claimant
+* A Medical History of a patient
+* Transactions that have been posted to a budget.</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/account</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Definition Reference for Oxford Dicitonaries.
+Set up Notes.</Change></LogEntry><LogEntry><Revision>3</Revision><Change>Remove reference to ROLE as a concept</Change></LogEntry></Log></Concept><Concept id="170" revision="2"><Name>Agent</Name><Namespace id="1"/><Definition>A PERSON, or ORGANIZATION, providing a SERVICE or taking a role in an EVENT</Definition><Description>One of the definitions of AGENT at Oxford Dictionaries is "a person or thing that takes an active role or produces a specified effect".
+
+AGENT is used to make relationships where the type of ITEM could be either  a PERSON or an ORGANIZATION.</Description><Examples>* Supplier
+* Applicant</Examples><Type>Group</Type><SuperConcepts><Concept id="166"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/agent</URL></DefinitionReference></DefinitionReferences><Standards><Standard id="7"/></Standards><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Oxford Dictionaries definition
+Examples</Change></LogEntry></Log></Concept><Concept id="178" revision="1"><Name>Agreement</Name><Namespace id="1"/><Definition>A negotiated arrangement between AGENTs as to a course of action</Definition><Examples>* Contract
+* Memorandum of Understanding
+* Code of Connection</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://oxforddictionaries.com/definition/english/agreement</URL></DefinitionReference></DefinitionReferences><Standards/><Log/></Concept><Concept id="184" revision="1"><Name>Assumption</Name><Namespace id="1"/><Definition>A predicted future STATE upon which DECISIONs are made.</Definition><Description>Assumptions about the future STATE of ITEM might be usefully shared across a city.</Description><Examples>* forecast
+* extrapolation</Examples><Type>Prime</Type><SuperConcepts><Concept id="168"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/assumption</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Revision>1</Revision><Change>New</Change></LogEntry></Log></Concept><Concept id="180" revision="1"><Name>Building</Name><Namespace id="1"/><Definition>A man-made OBJECT with roof and walls, with a fixed PLACE, intended for sheltering PERSONs or other OBJECTs.</Definition><Examples>* a House
+* a Factory
+* a Station
+* an Office</Examples><Type>Prime</Type><SuperConcepts><Concept id="162"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/building</URL></DefinitionReference><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Building</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-12</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Concept><Concept id="172" revision="2"><Name>Case</Name><Namespace id="1"/><Definition>A container for information recording the history of EVENTS initiated by a SERVICE Demand.</Definition><Description>When a SERVICE is used, it typically raises a CASE where information is contained through to the resolution of the CASE.</Description><Examples>* A Planning Application
+* An Incident of Fraud</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/case</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><Revision>2</Revision><Change>Definition from Oxford Dictionaries</Change></LogEntry></Log></Concept><Concept id="185" revision="1"><Name>Collection</Name><Namespace id="1"/><Definition>A grouping of ITEMS, as defined by an AGENT, that need to be managed, or operated upon together.</Definition><Description>COLLECTIONs are defined by an AGENT.
+
+The contents of a COLLECTION might be explicitly itemised, for example, a jewellery collection, or be defined by a coping statement, for example, the properties available for rent.</Description><Examples>* Stock
+* Lamp Posts</Examples><Type>Group</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Collection_(abstract_data_type)</URL></DefinitionReference><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/collection</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Revision>1</Revision></LogEntry></Log></Concept><Concept id="161" revision="3"><Name>Community</Name><Namespace id="1"/><Definition>A group of PERSONs and/or ORGANIZATIONs that share common characteristics such as PLACE, circumstance etc.</Definition><Description>A Community is defined by an AGENT, in terms of the common characteristics of the PERSONs and/or ORGANIZATIONs that are contained in it. 
+
+The STATE of a COMMUNITY can be tracked without having to know the identity of each PERSON and ORGANIZATION.
+
+A COMMUNITY might be composed of other COMMUNITYs. For example
+* the Business sector might be composed of the Industrial sector, the Tourism sector, the Financial Services sector etc.
+* the youth of a town are contained in the residents of a town.
+
+The actual PERSONs or ORGANIZATIONs might change without changing the identity of a COMMUNITY, for example the 'Long Term Unemployed in a City' remains the same COMMUNITY even though some people have left it, and others have joined it.
+
+Members of a COMMUNITY do not need to be aware of each other, and are not acting with a collective goal.  If they are, then they are an ORGANISATION.  For example, 'Long Term Unemployed', is a COMMUNITY, whereas 'The Job Seekers Club', is an ORGANIZATION.</Description><Examples>* Residents of a City or Town
+* Commuters
+* Carers
+* Long Term Unemployed
+* Low Income Families
+
+* The Tourism Industry
+* The Retail Sector</Examples><Type>Prime</Type><SuperConcepts><Concept id="166"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Community</URL></DefinitionReference><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/community#http://www.oxforddictionaries.com/definition/english/community</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2014-01-14</Date><By>Paul Davidson</By><Revision>3</Revision><Change>Definition now refers to PLACE instead of LOCATION</Change></LogEntry><LogEntry><Date>2013-11-04</Date><Revision>2</Revision><Change>Improved Notes.
+Link to Oxford Dictionaries</Change></LogEntry></Log></Concept><Concept id="176" revision="2"><Name>Decision</Name><Namespace id="1"/><Definition>A conclusion or resolution reached after consideration</Definition><Description>A DECISION is the outcome of an EVENT, and not the event itself.  A DECISION, taken by an AGENT, will have an effect on a number of ITEMs,  and will be influenced by OBJECTIVEs.</Description><Examples>* To provide RESOURCEs
+* To agree a PLAN</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://oxforddictionaries.com/definition/english/decision</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Notes and Examples</Change></LogEntry></Log></Concept><Concept id="164" revision="2"><Name>Event</Name><Namespace id="1"/><Definition>An occurrence that has or might happen over a period of time.</Definition><Description>An EVENT will refer to a number of ITEMs which will take roles in the EVENT.
+
+So, for example, a PERSON may take the role 'applicant', in one EVENT, and the same person may take the role 'patient', in another EVENT.
+
+All types of ITEM can take roles in an EVENT, so for example
+* a candlestick as an OBJECT could be the murder weapon in a crime EVENT.
+* a tender as an ABSTRACT could be the subject of a contract signing EVENT.
+
+An EVENT might occur over a very short period of time, e.g. a lightening flash, or a very long period of time, e.g. formation of the continents.</Description><Examples>* an accident
+* a birth
+* an application for a service</Examples><Type>Prime</Type><SuperConcepts/><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/event</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Oxford Dictionaries definition.</Change></LogEntry></Log></Concept><Concept id="186"><Name>Function</Name><Namespace id="1"/><Definition>A COLLECTION of SERVICEs</Definition><Description>A FUNCTION might be made up of SERVICEs from many ORGANIZATIONs.
+
+A SERVICE might appear in many FUNCTIONs.
+
+A FUNCTION might be defined to
+* bring together the SERVICES that are relevant to a COMMUNITY, and/or a PLACE;
+* combine SERVICES for accounting purposes.
+
+The United Nations provide a category list of the Functions of Government at http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4.</Description><Examples>* Education
+* Waste Management
+* Translation Services</Examples><Type>Prime</Type><SuperConcepts><Concept id="185"/></SuperConcepts><ProxyConcepts/><DefinitionReferences/><Standards/><Log/></Concept><Concept id="166" revision="3"><Name>Item</Name><Namespace id="1"/><Definition>An individual article or unit, especially one that is part of a list, collection, or set.</Definition><Description>Most Items, can be associated with a PLACE.
+
+ITEMs have STATE ( conditions or circumstances ), which can change over time.
+
+  Usually, data will refer directly to a sub-concept of ITEM
+
+* OBJECT
+* PERSON
+* ORGANIZATION
+* COMMUNITY
+* ABSTRACT</Description><Examples>See sub-concepts for examples</Examples><Type>Group</Type><SuperConcepts/><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/item</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-12-08</Date><By>Paul Davidson</By><Revision>3</Revision><Change>Name changes from Entity to Item, as we are using the term Entity to refer to all things that have a distinct and separate existence.</Change></LogEntry><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Notes</Change></LogEntry></Log></Concept><Concept id="187" revision="1"><Name>Method</Name><Namespace id="1"/><Definition>A pre-determined procedure, or series of steps, designed to accomplish an OBJECTIVE.</Definition><Description>A number of METHODs might be associated with a SERVICE as options for achieving an OBJECTIVE.</Description><Examples>* payment method
+* customer contact method
+* debt recovery method
+* medical procedure
+* an MOT procedure</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/method</URL></DefinitionReference><DefinitionReference><Label>wikipedia</Label><URL>http://en.wikipedia.org/wiki/Method_(patent)</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2014-01-15</Date><Revision>1</Revision><Change>New</Change></LogEntry></Log></Concept><Concept id="181" revision="1"><Name>Metric</Name><Namespace id="1"/><Definition>A measure of demography, characteristics, activity or performance</Definition><Description>METRICs are often collected as statistics which describe the STATE of a SERVICE, COMMUNITY, or PLACE.</Description><Examples>* Performance Indicator
+* Deprivation Index
+* Traffic Count</Examples><Type>Prime</Type><SuperConcepts><Concept id="168"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Performance_metric</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-12</Date><By>Paul Davidson</By><Revision>1</Revision><Change>New</Change></LogEntry></Log></Concept><Concept id="162" revision="2"><Name>Object</Name><Namespace id="1"/><Definition>A physical ITEM</Definition><Description>Objects are the 'things' that are contained in a City.</Description><Examples>* a Building
+* a Road
+* a Car
+* a Lamppost</Examples><Type>Prime</Type><SuperConcepts><Concept id="166"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/object</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><Revision>2</Revision><Change>Link to Oxford Dictionaries</Change></LogEntry></Log></Concept><Concept id="174" revision="2"><Name>Objective</Name><Namespace id="1"/><Definition>An achievement desired by an AGENT.</Definition><Description>An OBJECTIVE refers to a desired change of condition or circumstances of something (an ITEM).  Where the change can be quantified, the OBJECTIVE might be linked to one or more TARGETs.
+
+Where OBJECTIVEs are set for a COMMUNITY, the desire might be to change the size of the community, or the well-being of the PERSONs or ORGANIZATIONS in it.</Description><Examples>* Create new jobs in the Energy sector.
+* Reduce Carbon Emissions in a city by 25% within 5 years.</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/objective</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Improve definition to refer to an AGENT.
+Link to Oxford Dictionaries.</Change></LogEntry></Log></Concept><Concept id="183" revision="1"><Name>Observation</Name><Namespace id="1"/><Definition>An EVENT in which a STATE is recorded.</Definition><Description>The Open Geospatial Consortium define an observation as "an act at a discrete instant or period, through which a number or term is assigned to a phenomenon using a procedure, such as a sensor, instrument, or algorithm."</Description><Examples>* Sensor Reading
+* Medical Assessment</Examples><Type>Prime</Type><SuperConcepts><Concept id="164"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/observation</URL></DefinitionReference><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Observation</URL></DefinitionReference><DefinitionReference><Label>Open Geospatial Consortium Reference Model</Label><URL>http://www.opengeospatial.org/standards/orm</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Revision>1</Revision><Change>New</Change></LogEntry></Log></Concept><Concept id="160" revision="3"><Name>Organization</Name><Namespace id="1"/><Definition>A group of PERSONs with a collective goal.</Definition><Examples>* A business
+* A public sector body
+* A charity
+* A household</Examples><Type>Prime</Type><SuperConcepts><Concept id="170"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Organization#http://en.wikipedia.org/wiki/Organization</URL></DefinitionReference><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/organization</URL></DefinitionReference></DefinitionReferences><Standards><Standard id="8"/><Standard id="9"/></Standards><Log><LogEntry><Date>2014-01-14</Date><By>Paul Davidson</By><Revision>3</Revision><Change>Renamed from ORGANISATION to ORGANIZATION</Change></LogEntry><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Add definition from Oxford Dictionaries</Change></LogEntry></Log></Concept><Concept id="159" revision="2"><Name>Person</Name><Namespace id="1"/><Definition>An individual human being.</Definition><Type>Prime</Type><SuperConcepts><Concept id="170"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/person</URL></DefinitionReference></DefinitionReferences><Standards><Standard id="6"/><Standard id="7"/></Standards><Log><LogEntry><Date>2013-11-04</Date><Revision>2</Revision><Change>Link to definition from Oxford Dictionaries.
+Refine the Notes.</Change></LogEntry><LogEntry><Date>2013-10-14</Date><By>Paul Davidson</By><Revision>1</Revision></LogEntry></Log></Concept><Concept id="163" revision="2"><Name>Place</Name><Namespace id="1"/><Definition>A geographic position, area, or volume.</Definition><Description>A Place might have definite or indefinite boundaries.</Description><Examples>* a point defined by coordinates, e.g. the location of an incident
+* an area defined by a set of coordinates, e.g. a school catchment area
+* a place referred to only by a name without attempting to define the area exactly e.g. a Town</Examples><Type>Prime</Type><SuperConcepts/><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Place</URL></DefinitionReference><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/place</URL></DefinitionReference></DefinitionReferences><Standards><Standard id="12"/><Standard id="10"/><Standard id="11"/></Standards><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Link to Oxford Dictionaries definition</Change></LogEntry></Log></Concept><Concept id="177" revision="2"><Name>Plan</Name><Namespace id="1"/><Definition>A list of steps with times and RESOURCEs, used to achieve an OBJECTIVE.</Definition><Description>A PLAN will have been devised to achieve an OBJECTIVE, over a period of time.</Description><Examples>* Corporate Plan
+* Community Plan
+* Marketing Plan
+* Project Plan
+* Strategy</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Plan</URL></DefinitionReference><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/plan</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><Revision>2</Revision><Change>Add TIME to the definition.
+Link to Oxford Dictionaries definition</Change></LogEntry></Log></Concept><Concept id="179" revision="2"><Name>Resource</Name><Namespace id="1"/><Definition>An ITEM  that can be drawn on by an AGENT to produce a benefit.</Definition><Description>RESOURCES are available to an AGENT to allocate to SERVICEs and PLANs to achieve OBJECTIVEs.
+
+Typically RESOURCES can be money, materials, staff, and assets.</Description><Examples>* materials
+* money
+* staff
+* assets</Examples><Type>Group</Type><SuperConcepts/><ProxyConcepts><Concept id="166"/></ProxyConcepts><DefinitionReferences><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Resource</URL></DefinitionReference><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/resource</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Add notes.
+Link to Oxford Dicitonaries for definition.</Change></LogEntry></Log></Concept><Concept id="175" revision="2"><Name>Rule</Name><Namespace id="1"/><Definition>an explicit or understood regulation or principle governing conduct or procedure within a particular area of activity</Definition><Description>RULEs can constrain the design of SERVICEs.</Description><Examples>* Legislation
+* Eligibility
+* Principle
+* Policy</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://oxforddictionaries.com/definition/english/rule</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><Revision>2</Revision><Change>Added notes</Change></LogEntry></Log></Concept><Concept id="169" revision="3"><Name>Service</Name><Namespace id="1"/><Definition>The capacity to carry out one or more METHODs.</Definition><Description>A SERVICE exists even if it is not accessed. For example, an Advice Hotline exists as a SERVICE even if nobody calls it.
+
+SERVICEs are typically targeted at COMMUNITYs.
+
+SERVICEs can consume RESOURCEs and give benefit.
+
+A CASE contains information about an instance of a use of a SERVICE.</Description><Examples>* a hairdressing service
+* a street cleaning service
+* an energy supply
+* an advice service</Examples><Type>Prime</Type><SuperConcepts><Concept id="182"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>EC SERVICE core vocabulary</Label><URL>https://joinup.ec.europa.eu/asset/core_public_service/asset_release/core-public-service-vocabulary-0</URL></DefinitionReference><DefinitionReference><Label>Wikipedia</Label><URL>http://en.wikipedia.org/wiki/Service_(economics)</URL></DefinitionReference></DefinitionReferences><Standards><Standard id="13"/></Standards><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Notes and Examples.
+Link to Wikipedia definition</Change></LogEntry><LogEntry><Revision>3</Revision><Change>Change procedure to METHOD</Change></LogEntry></Log></Concept><Concept id="168" revision="2"><Name>State</Name><Namespace id="1"/><Definition>A circumstance or condition of an ITEM at a time.</Definition><Description>An ITEM might have a series of STATEs describing condition or circumstance, at particular times.
+
+For example
+A PERSON might be 'unemployed' in June and 'employed' in July.
+
+Changes to STATE are often the outcome of EVENTs.</Description><Examples>* Income
+* Housing
+* Repair
+*</Examples><Type>Prime</Type><SuperConcepts/><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://oxforddictionaries.com/definition/english/state</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2013-11-04</Date><By>Paul Davidson</By><Revision>2</Revision><Change>Added Notes</Change></LogEntry></Log></Concept><Concept id="188"><Name>Target</Name><Namespace id="1"/><Definition>A desired STATE</Definition><Description>A TARGET will provide a value at a time in the future, for a STATE.  TARGETs are linked to OBJECTIVEs which in turn links to the AGENT that has set the TARGET.
+
+An OBJECTIVE might have many TARGETs over time, and a  TARGET might relate to many OBJECTIVEs.</Description><Type>Prime</Type><SuperConcepts><Concept id="168"/></SuperConcepts><ProxyConcepts/><DefinitionReferences><DefinitionReference><Label>Oxford Dictionaries</Label><URL>http://www.oxforddictionaries.com/definition/english/target</URL></DefinitionReference></DefinitionReferences><Standards/><Log><LogEntry><Date>2014-01-15</Date><Revision>1</Revision><Change>New</Change></LogEntry></Log></Concept></Concepts><Relationships><Relationship id="279" defining="true"><Subject><Concept id="176"/></Subject><Object><Concept id="166"/></Object><Property>appliesTo</Property><Label>applies to</Label><Inverse>subjectOf</Inverse><InverseLabel>subject of</InverseLabel><Log/></Relationship><Relationship id="288"><Subject><Concept id="178"/></Subject><Object><Concept id="169"/></Object><Property>appliesTo</Property><Label>applies to</Label><Inverse>subjectOf</Inverse><InverseLabel>subject of</InverseLabel><Log/></Relationship><Relationship id="304" defining="true"><Subject><Concept id="184"/></Subject><Object><Concept id="170"/></Object><Property>assumptionMadeBy</Property><Label>made by</Label><Inverse>makesAssumption</Inverse><InverseLabel>makes</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="262"><Subject><Concept id="166"/></Subject><Object><Concept id="163"/></Object><Property>atPlace</Property><Label>at</Label><Inverse>placeOf</Inverse><InverseLabel>place of</InverseLabel><Log/></Relationship><Relationship id="255"><Subject><Concept id="164"/></Subject><Object><Concept id="163"/></Object><Property>atPlace</Property><Label>at</Label><Inverse>placeOf</Inverse><InverseLabel>of</InverseLabel><Log/></Relationship><Relationship id="317"><Subject><Concept id="172"/></Subject><Object><Concept id="177"/></Object><Property>caseHasPlan</Property><Label>has</Label><Inverse>planForCase</Inverse><InverseLabel>for</InverseLabel><Log><LogEntry><Date>2014-01-19</Date><By>Paul Davidson</By></LogEntry></Log></Relationship><Relationship id="305"><Subject><Concept id="185"/></Subject><Object><Concept id="166"/></Object><Property>collectionContains</Property><Label>contains</Label><Inverse>containedInCollection</Inverse><InverseLabel>contained in</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="307" defining="true"><Subject><Concept id="185"/></Subject><Object><Concept id="170"/></Object><Property>collectionDefinedBy</Property><Label>defined by</Label><Inverse>definesCollection</Inverse><InverseLabel>defines</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="281"><Subject><Concept id="160"/></Subject><Object><Concept id="160"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log/></Relationship><Relationship id="302"><Subject><Concept id="169"/></Subject><Object><Concept id="169"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log><LogEntry><Date>2013-12-02</Date><By>Paul Davidson</By></LogEntry></Log></Relationship><Relationship id="273"><Subject><Concept id="173"/></Subject><Object><Concept id="164"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log/></Relationship><Relationship id="285"><Subject><Concept id="177"/></Subject><Object><Concept id="177"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log/></Relationship><Relationship id="308"><Subject><Concept id="186"/></Subject><Object><Concept id="169"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="301"><Subject><Concept id="163"/></Subject><Object><Concept id="163"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log><LogEntry><Date>2013-11-29</Date><By>Paul Davidson</By></LogEntry></Log></Relationship><Relationship id="282"><Subject><Concept id="161"/></Subject><Object><Concept id="161"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log/></Relationship><Relationship id="272"><Subject><Concept id="172"/></Subject><Object><Concept id="164"/></Object><Property>contains</Property><Label>contains</Label><Inverse>containedIn</Inverse><InverseLabel>contained in</InverseLabel><Log/></Relationship><Relationship id="287" inverseDefining="true"><Subject><Concept id="170"/></Subject><Object><Concept id="178"/></Object><Property>hasAgreement</Property><Label>has</Label><Inverse>aggreementWith</Inverse><InverseLabel>with</InverseLabel><Log/></Relationship><Relationship id="275" inverseDefining="true"><Subject><Concept id="170"/></Subject><Object><Concept id="174"/></Object><Property>hasObjective</Property><Label>has</Label><Inverse>objectiveOf</Inverse><InverseLabel>of</InverseLabel><Log/></Relationship><Relationship id="261"><Subject><Concept id="164"/></Subject><Object><Concept id="168"/></Object><Property>hasOutcome</Property><Label>has outcome</Label><Inverse>outcomeOf</Inverse><InverseLabel>outcome of</InverseLabel><Log/></Relationship><Relationship id="284" inverseDefining="true"><Subject><Concept id="170"/></Subject><Object><Concept id="177"/></Object><Property>hasPlan</Property><Label>has</Label><Inverse>planOf</Inverse><InverseLabel>of</InverseLabel><Log/></Relationship><Relationship id="289" inverseDefining="true"><Subject><Concept id="170"/></Subject><Object><Concept id="179"/></Object><Property>hasResource</Property><Label>has</Label><Inverse>resourceOf</Inverse><InverseLabel>of</InverseLabel><Log/></Relationship><Relationship id="298" inverseDefining="true"><Subject><Concept id="166"/></Subject><Object><Concept id="173"/></Object><Property>hasRoleIn</Property><Label>has role in</Label><Inverse>hasRoleFrom</Inverse><InverseLabel>has role from</InverseLabel><Log/></Relationship><Relationship id="318" inverseDefining="true"><Subject><Concept id="166"/></Subject><Object><Concept id="172"/></Object><Property>hasRoleIn</Property><Label>has role in</Label><Inverse>hasRoleFrom</Inverse><InverseLabel>has role from</InverseLabel><Log><LogEntry><Date>2014-01-30</Date><By>Paul Davidson</By></LogEntry></Log></Relationship><Relationship id="297" inverseDefining="true"><Subject><Concept id="166"/></Subject><Object><Concept id="164"/></Object><Property>hasRoleIn</Property><Label>has role in</Label><Inverse>hasRoleFrom</Inverse><InverseLabel>has role from</InverseLabel><Log><LogEntry><Date>2013-11-12</Date><By>Paul Davidson</By><Change>Replaces the ROLE concept</Change></LogEntry></Log></Relationship><Relationship id="259" inverseDefining="true"><Subject><Concept id="166"/></Subject><Object><Concept id="168"/></Object><Property>hasState</Property><Label>has state</Label><Inverse>stateOf</Inverse><InverseLabel>state of</InverseLabel><Log/></Relationship><Relationship id="299"><Subject><Concept id="163"/></Subject><Object><Concept id="168"/></Object><Property>hasState</Property><Label>has state</Label><Inverse>stateOf</Inverse><InverseLabel>state of</InverseLabel><Log/></Relationship><Relationship id="315"><Subject><Concept id="177"/></Subject><Object><Concept id="188"/></Object><Property>hasTarget</Property><Label>has target</Label><Inverse>targetOf</Inverse><InverseLabel>target of</InverseLabel><Log><LogEntry><Date>2014-01-19</Date><By>Paul Davidson</By></LogEntry></Log></Relationship><Relationship id="300"><Subject><Concept id="169"/></Subject><Object><Concept id="174"/></Object><Property>influencedBy</Property><Label>influenced by</Label><Inverse>influences</Inverse><InverseLabel>influences</InverseLabel><Log><LogEntry><Date>2013-11-17</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="280"><Subject><Concept id="176"/></Subject><Object><Concept id="174"/></Object><Property>influencedBy</Property><Label>influenced by</Label><Inverse>influences</Inverse><InverseLabel>influences</InverseLabel><Log/></Relationship><Relationship id="283"><Subject><Concept id="177"/></Subject><Object><Concept id="174"/></Object><Property>influencedBy</Property><Label>influenced by</Label><Inverse>influences</Inverse><InverseLabel>influences</InverseLabel><Log/></Relationship><Relationship id="312"><Subject><Concept id="174"/></Subject><Object><Concept id="184"/></Object><Property>influencedBy</Property><Label>influenced by</Label><Inverse>influences</Inverse><InverseLabel>influences</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="292"><Subject><Concept id="159"/></Subject><Object><Concept id="160"/></Object><Property>memberOf</Property><Label>member of</Label><Inverse>hasMember</Inverse><InverseLabel>has member</InverseLabel><Log/></Relationship><Relationship id="294"><Subject><Concept id="176"/></Subject><Object><Concept id="164"/></Object><Property>outcomeOf</Property><Label>outcome of</Label><Inverse>hasOutcome</Inverse><InverseLabel>has outcome</InverseLabel><Log/></Relationship><Relationship id="274" defining="true"><Subject><Concept id="173"/></Subject><Object><Concept id="170"/></Object><Property>ownedBy</Property><Label>owned by</Label><Inverse>owns</Inverse><InverseLabel>owns</InverseLabel><Log/></Relationship><Relationship id="313"><Subject><Concept id="177"/></Subject><Object><Concept id="187"/></Object><Property>planDerivedFromMethod</Property><Label>derived from</Label><Inverse>derivationOfPlan</Inverse><InverseLabel>derivation of</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="316"><Subject><Concept id="177"/></Subject><Object><Concept id="164"/></Object><Property>planForEvent</Property><Label>plans event</Label><Inverse>eventPlannedIn</Inverse><InverseLabel>planned in</InverseLabel><Log/></Relationship><Relationship id="267" defining="true"><Subject><Concept id="169"/></Subject><Object><Concept id="170"/></Object><Property>providedBy</Property><Label>provided by</Label><Inverse>provides</Inverse><InverseLabel>provides</InverseLabel><Log/></Relationship><Relationship id="270" defining="true"><Subject><Concept id="172"/></Subject><Object><Concept id="169"/></Object><Property>raisedFrom</Property><Label>raised from</Label><Inverse>raises</Inverse><InverseLabel>raises</InverseLabel><Log/></Relationship><Relationship id="303" defining="true"><Subject><Concept id="183"/></Subject><Object><Concept id="168"/></Object><Property>records</Property><Label>records</Label><Inverse>isRecordedBy</Inverse><InverseLabel>recorded by</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="314"><Subject><Concept id="166"/></Subject><Object><Concept id="166"/></Object><Property>relatedTo</Property><Label>related to</Label><Log/></Relationship><Relationship id="290" inverseDefining="true"><Subject><Concept id="179"/></Subject><Object><Concept id="177"/></Object><Property>resourceFor</Property><Label>resource for</Label><Inverse>usesResource</Inverse><InverseLabel>uses</InverseLabel><Log/></Relationship><Relationship id="291" inverseDefining="true"><Subject><Concept id="179"/></Subject><Object><Concept id="169"/></Object><Property>resourceFor</Property><Label>resource for</Label><Inverse>usesResource</Inverse><InverseLabel>uses</InverseLabel><Log/></Relationship><Relationship id="266" defining="true"><Subject><Concept id="169"/></Subject><Object><Concept id="170"/></Object><Property>responsibilityOf</Property><Label>responsibility of</Label><Inverse>responsibleFor</Inverse><InverseLabel>responsible for</InverseLabel><Log/></Relationship><Relationship id="277" inverseDefining="true"><Subject><Concept id="175"/></Subject><Object><Concept id="169"/></Object><Property>ruleFor</Property><Label>for</Label><Inverse>hasRule</Inverse><InverseLabel>has</InverseLabel><Log/></Relationship><Relationship id="309"><Subject><Concept id="169"/></Subject><Object><Concept id="187"/></Object><Property>serviceImplementsMethod</Property><Label>implements</Label><Inverse>methodImplementedIn</Inverse><InverseLabel>implemented in</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>New</Change></LogEntry></Log></Relationship><Relationship id="278" inverseDefining="true"><Subject><Concept id="170"/></Subject><Object><Concept id="176"/></Object><Property>takesDecision</Property><Label>takes</Label><Inverse>decisionTakenBy</Inverse><InverseLabel>taken by</InverseLabel><Log/></Relationship><Relationship id="276"><Subject><Concept id="188"/></Subject><Object><Concept id="174"/></Object><Property>targetOfObjective</Property><Label>of</Label><Inverse>objectiveHasTarget</Inverse><InverseLabel>has</InverseLabel><Log><LogEntry><Date>2014-01-15</Date><By>Paul Davidson</By><Change>Now uses TARGET instead of STATE</Change></LogEntry></Log></Relationship><Relationship id="268"><Subject><Concept id="169"/></Subject><Object><Concept id="161"/></Object><Property>usedBy</Property><Label>used by</Label><Inverse>uses</Inverse><InverseLabel>uses</InverseLabel><Log/></Relationship></Relationships><Views><View id="15"><Name>Items</Name><Description>A city will contain lots of ITEMs, which might be referred to in data from many organisations. Where a city can agree a common identifier for an ITEM, many organisations can provide information about it.
+
+Most obviously, an ITEM might be an OBJECT such as a lamppost, a building, or a road, but an ITEM might also be
+
+* an ORGANIZATION, such as a local council, or an energy supplier
+* a PERSON, such as a resident or user of a service.
+* a COMMUNITY, such as commuters, or low income families
+
+The model contains sub-concepts of ITEM for these.  The relationships that are defined for ITEM are therefore also true for these sub-concepts.
+
+The AGENT concept can be used where it is not possible to know if data refers to a PERSON or an ORGANIZATION.
+
+A city will also need to refer to non-physical things such as a service, a contract, a decision, or a case.  These non-physical things are also ITEMs, and the model uses the sub-concept ABSTRACT to group them together.  A number of further sub-concepts within ABSTRACT are defined in the model.
+
+ITEMs might be associated with PLACEs; most obviously, to describe where an ITEM is.  Although ABSTRACT ITEMs don't have a physical existence, they can still be related to PLACE, perhaps to describe their coverage.
+
+PLACE is used to describe a geographic position or area.  Some PLACEs will be described precisely with coordinates, and boundaries, while others will be less precise, perhaps just with a locality name.
+
+Both ITEMs and PLACEs can have a series of STATEs over time.  Typically, a STATE describes the condition of an ITEM or PLACE.
+
+A STATE might be described subjectively, from the point of view of an observer, for example, 'the building condition is poor'.  A STATE might also be described quantitively, for example, the temperature of a room, or perhaps as a statistic, for example "a community's deprivation index".
+
+A Smart City will base its decisions on a shared understanding of the STATE of ITEMS, either in real-time, or by implementing PLANs to being about changes to STATEs.</Description><Concepts><Concept id="182"/><Concept id="159"/><Concept id="160"/><Concept id="161"/><Concept id="162"/><Concept id="163"/><Concept id="166"/><Concept id="168"/><Concept id="170"/></Concepts><Relationships><Relationship id="292"/><Relationship id="281"/><Relationship id="282"/><Relationship id="301"/><Relationship id="262"/><Relationship id="314"/><Relationship id="259"/><Relationship id="299"/></Relationships></View><View id="20"><Name>Collections of Items</Name><Description>ITEMs are often grouped together so that they can be managed, or operated upon together.  For example
+
+* Housing Stock
+* Vehicle Fleet
+* Manholes
+* Roads
+* a Contracts Register
+
+COLLECTIONs are defined by AGENTs so that the actual contents are either explicitly listed, or defined by a scoping statement.
+
+COLLECTIONs enable lists of ITEMs to be defined, created and shared across a city.
+
+Although the contents of a COLLECTION can be physical ITEMs, a COLLECTION is an ABSTRACT ITEM.
+
+As a COLLECTION is itself, a sub-concept of ITEM, it's STATE can be described and tracked over time.</Description><Concepts><Concept id="182"/><Concept id="185"/><Concept id="166"/><Concept id="168"/><Concept id="170"/></Concepts><Relationships><Relationship id="305"/><Relationship id="259"/><Relationship id="307"/></Relationships></View><View id="14"><Name>Events</Name><Description>For a city, events might include
+
+* an incident
+* a measurement
+* a change of a setting
+* a transaction
+* a use of a service
+
+… and so on.
+
+An EVENT will refer to a number of ITEMs which will take roles in the EVENT.
+
+So, for example, a PERSON may take the role 'applicant', in one EVENT, and the same person may take the role 'patient', in another EVENT.
+
+All types of ITEM can take roles in an EVENT, so for example
+* a candlestick as an OBJECT could be the murder weapon in a crime EVENT.
+* a tender as an ABSTRACT could be the subject of a contract signing EVENT.
+
+EVENTs occur over a period of time, and might cause a change in the STATE of a number of ITEMs.
+
+For example, a driver convicted of speeding might cause a change to the number of points on a driving licence, or to the eligibility to drive.</Description><Concepts><Concept id="163"/><Concept id="164"/><Concept id="166"/><Concept id="168"/></Concepts><Relationships><Relationship id="255"/><Relationship id="262"/><Relationship id="297"/><Relationship id="261"/><Relationship id="259"/></Relationships></View><View id="18"><Name>Objectives</Name><Description>ORGANIZATIONs and individual PEOPLE will have a series of OBJECTIVEs setting their reasoning and ambition for the changes that they desire.  Some of these might be long term, for example
+
+* providing suitable housing
+* reducing carbon emissions
+* reducing unemployment
+
+, while others might be more immediate or real-time such as
+
+* optimum energy usage
+* maintaining safe water levels
+
+The model combines the concepts of PERSON and ORGANISATION into the concept of AGENT.  This simplifies the relationships that would often otherwise need to refer to either.
+
+Where an OBJECTIVE can be quantified, it can be linked to a series of TARGETs which are the observable STATEs of the impacted ITEMs.
+
+OBJECTIVEs might be set on the basis of a series of ASSUMPTIONs, which capture a predicted future STATE of one of more ITEMs.  The gap between an ASSUMPTION and a TARGET might define the change that is sought by the OBJECTIVE.
+
+For example
+* COLLECTION - houses for rent under £400 per week
+* TARGET - 10,000 by 2016
+* OBJECTIVE - provide adequate affordable housing
+* ASSUMPTION -10,000 households will require affordable housing by 2016
+
+METRICs are regularly published which track the actual STATE of an ITEM, and can be used to consider if TARGETs have been achieved.</Description><Concepts><Concept id="174"/><Concept id="181"/><Concept id="184"/><Concept id="188"/><Concept id="161"/><Concept id="166"/><Concept id="168"/><Concept id="170"/></Concepts><Relationships><Relationship id="275"/><Relationship id="276"/><Relationship id="312"/><Relationship id="282"/><Relationship id="259"/><Relationship id="304"/></Relationships></View><View id="21"><Name>Observing and Responding</Name><Description>A city might have a series of automated SERVICEs that respond in real-time to observed STATEs, to adjust settings to re-establish an optimum STATE.
+
+For example, sensors and actuators can be used to
+* manage traffic flows
+* control temperatures
+* reduce energy consumption
+
+8.5.3.	The model represents a sensor as an OBJECT ITEM, which can be related to a PLACE describe where it is.
+
+This view depicts three stages:
+
+* 	determining objectives, and optimum states of system
+* readings be taken by a sensor;
+* a service responding to inputs by changing settings
+
+
+For the first stage, the system is represented as an ITEM, for which one or more TARGET states can be defined.
+
+For the second stage, a sensor takes a reading of the system, which is represented as an OBSERVATION EVENT capturing the STATE of an ITEM.
+
+For the third stage, a further device or actuator might then be configured to automatically react to an observed STATE by changing settings.
+
+The actuator is also an OBJECT, which has a role in an EVENT that changes a STATE.  The change of settings is a SERVICE, implementing a METHOD, provided by an AGENT.  A log of the observations, and settings is recorded in a CASE.
+
+
+So for example,
+
+stage 1 - an optimum temperature (TARGET) of a room (ITEM) can be set to reduce energy consumption ( OBJECTIVE ).
+
+stage 2 - a temperature sensor (OBJECT) might take a reading (OBSERVATION) of the temperature (STATE) of the room.
+
+stage 3 - a service (SERVICE) instructs (EVENT) the actuator (OBJECT) to change the valve setting (STATE) of a radiator (OBJECT).  The impact of the change is then monitored via further observations recorded within the CASE</Description><Concepts><Concept id="183"/><Concept id="187"/><Concept id="188"/><Concept id="162"/><Concept id="164"/><Concept id="166"/><Concept id="168"/><Concept id="169"/><Concept id="172"/></Concepts><Relationships><Relationship id="309"/><Relationship id="297"/><Relationship id="272"/><Relationship id="303"/><Relationship id="261"/><Relationship id="259"/><Relationship id="270"/></Relationships></View><View id="16"><Name>Services</Name><Description>For a city, SERVICEs might include
+
+* energy provision
+* waste collection
+* licensing
+* car parking
+* removing abandoned vehicles
+and so on.
+
+A SERVICE is the responsibility of an ORGANIZATION or an individual PERSON.  The concepts of ORGANIZATION and PERSON are combined into the concept AGENT.
+
+The AGENT providing a SERVICE is not necessarily the same as the AGENT responsible for it.
+
+A SERVICE will be targeted for use by a COMMUNITY which might be, for example
+* the residents of a city
+* the long term unemployed
+* commuters
+* families
+and so on.
+
+As both COMMUNITY, and SERVICE are sub-concepts of ITEM, their STATEs can be recorded over time.  For SERVICE, this enables actual and TARGET values to be recorded for throughput and performance, for example:
+* the number of abandoned vehicles reported over a period
+* the average time taken to remove a vehicle
+
+SERVICEs are often constrained by RULES such as
+* legislation
+* eligibility
+* terms and conditions
+and so on
+
+A SERVICE implements one or more METHODs, which might be re-used in other SERVICEs.
+
+SERVICEs from many AGENTs can be grouped together into FUNCTIONs.  FUNCTION is a sub-concept of COLLECTION.
+
+A FUNCTION can list the services that serve a particular COMMUNITY, for example
+
+* Waste Management (FUNCTION) might contain SERVICEs for 'Refuse Collection', 'Recycling', 'Waste Disposal', and those SERVICEs might be provided from many ORGANISATIONs in the city.</Description><Concepts><Concept id="175"/><Concept id="186"/><Concept id="187"/><Concept id="161"/><Concept id="169"/><Concept id="170"/></Concepts><Relationships><Relationship id="309"/><Relationship id="282"/><Relationship id="268"/><Relationship id="308"/><Relationship id="277"/><Relationship id="302"/><Relationship id="266"/><Relationship id="267"/></Relationships></View><View id="17"><Name>Cases</Name><Description>A CASE is raised when a SERVICE is used.
+
+For a city, a case might be
+
+* a crime investigation
+* a planning application
+* 	rectifying a fault on a network
+and so on.
+
+A CASE contains the EVENTs that are relevant to an individual use of a SERVICE, until the CASE is closed.
+
+For some CASEs, a PLAN might be devised giving estimated times and RESOURCEs for future EVENTs.
+
+An AGENT might maintain a series of ACCOUNTs, that contain a history of EVENTs that apply to one or more ITEMs, for example
+* a medical history
+* a customer history
+* a criminal record
+* a building maintenance record
+and so on.</Description><Concepts><Concept id="173"/><Concept id="177"/><Concept id="164"/><Concept id="166"/><Concept id="169"/><Concept id="170"/><Concept id="172"/></Concepts><Relationships><Relationship id="298"/><Relationship id="317"/><Relationship id="297"/><Relationship id="273"/><Relationship id="272"/><Relationship id="270"/><Relationship id="274"/><Relationship id="318"/></Relationships></View><View id="22"><Name>Plans</Name><Description>A PLAN records the steps and decision points that will be applied to achieve a TARGET STATE of an ITEM or PLACE, as a part of addressing an OBJECTIVE.
+
+A Plan might be derived from existing METHODs which have been devised to achieve the desired outcome.
+
+As a PLAN is enacted, EVENTs will occur that record the actual happenings as compared to those planned.
+
+A city might wish to discover and track the PLANS from many AGENTs that apply to OBJECTIVEs for ITEMs or PLACEs.</Description><Concepts><Concept id="174"/><Concept id="177"/><Concept id="187"/><Concept id="188"/><Concept id="164"/><Concept id="170"/></Concepts><Relationships><Relationship id="275"/><Relationship id="276"/><Relationship id="283"/><Relationship id="284"/><Relationship id="285"/><Relationship id="313"/><Relationship id="315"/><Relationship id="316"/></Relationships></View><View id="23"><Name>Resources and Decisions</Name><Description>RESOURCEs are ITEMs that can be put to a use, for a benefit.  
+
+RESOURCEs can be allocated to a SERVICE or a PLAN.
+
+AGENTs take DECISIONs about ITEMs which are influenced by OBJECTIVEs.  A DECISION can be about the application of a RESOURCE.
+
+A city might wish to engage stakeholders about DECISION, and particularly about how RESOURCEs are allocated over SERVICEs and PLANs to achieve OBJECTIVEs.</Description><Concepts><Concept id="174"/><Concept id="176"/><Concept id="177"/><Concept id="179"/><Concept id="161"/><Concept id="166"/><Concept id="169"/><Concept id="170"/></Concepts><Relationships><Relationship id="275"/><Relationship id="280"/><Relationship id="278"/><Relationship id="290"/><Relationship id="289"/><Relationship id="279"/><Relationship id="291"/></Relationships></View><View id="19"><Name>All</Name><Description>Here are all of the concepts and relationships in the model.</Description><Concepts><Concept id="173"/><Concept id="174"/><Concept id="175"/><Concept id="176"/><Concept id="177"/><Concept id="178"/><Concept id="179"/><Concept id="180"/><Concept id="181"/><Concept id="182"/><Concept id="183"/><Concept id="184"/><Concept id="185"/><Concept id="186"/><Concept id="187"/><Concept id="188"/><Concept id="159"/><Concept id="160"/><Concept id="161"/><Concept id="162"/><Concept id="163"/><Concept id="164"/><Concept id="166"/><Concept id="168"/><Concept id="169"/><Concept id="170"/><Concept id="172"/></Concepts><Relationships><Relationship id="298"/><Relationship id="275"/><Relationship id="276"/><Relationship id="283"/><Relationship id="280"/><Relationship id="300"/><Relationship id="278"/><Relationship id="290"/><Relationship id="284"/><Relationship id="285"/><Relationship id="317"/><Relationship id="287"/><Relationship id="289"/><Relationship id="312"/><Relationship id="309"/><Relationship id="313"/><Relationship id="315"/><Relationship id="292"/><Relationship id="281"/><Relationship id="282"/><Relationship id="268"/><Relationship id="301"/><Relationship id="255"/><Relationship id="262"/><Relationship id="297"/><Relationship id="273"/><Relationship id="294"/><Relationship id="316"/><Relationship id="272"/><Relationship id="279"/><Relationship id="305"/><Relationship id="314"/><Relationship id="303"/><Relationship id="261"/><Relationship id="259"/><Relationship id="299"/><Relationship id="308"/><Relationship id="288"/><Relationship id="288"/><Relationship id="270"/><Relationship id="277"/><Relationship id="291"/><Relationship id="302"/><Relationship id="266"/><Relationship id="267"/><Relationship id="307"/><Relationship id="274"/><Relationship id="304"/></Relationships></View></Views></Model></Models><Sectors><Sector id="3"><Name>Defence</Name></Sector><Sector id="2"><Name>Health</Name></Sector><Sector id="4"><Name>Local</Name></Sector><Sector id="1"><Name>Public Sector</Name></Sector></Sectors><Namespaces><Namespace id="1"><Alias>sccm</Alias></Namespace><Namespace id="2"><Alias>dc</Alias></Namespace><Namespace id="4"><Alias>org</Alias></Namespace><Namespace id="5"><Alias>foaf</Alias></Namespace><Namespace id="7"><Alias>ec</Alias></Namespace></Namespaces><Standards><Standard id="6"><Namespace id="7"/><Name> Core Vocabulary for PERSON</Name><URL>https://joinup.ec.europa.eu/asset/core_person/release/100</URL></Standard><Standard id="7"><Namespace id="5"/><Name>Friend of a Friend Ontology</Name><URL>http://www.foaf-project.org/</URL></Standard><Standard id="8"><Namespace id="4"/><Name>org ontology</Name><URL>http://www.w3.org/TR/vocab-org/</URL></Standard><Standard id="9"><Namespace id="7"/><Name>Core Vocabulary for BUSINESS</Name><URL>https://joinup.ec.europa.eu/asset/core_business/release/100</URL></Standard><Standard id="10"><Namespace id="7"/><Name>INSPIRE</Name><URL>http://inspire.jrc.ec.europa.eu/index.cfm/pageid/2/list/7</URL></Standard><Standard id="11"><Namespace id="7"/><Name>INSPIRE-ApplicationSchemas</Name></Standard><Standard id="12"><Namespace id="7"/><Name>Core Vocabulary for LOCATION</Name><URL>https://joinup.ec.europa.eu/asset/core_location/release/100</URL></Standard><Standard id="13"><Namespace id="7"/><Name>Core Vocabulary for SERVICE</Name><URL>https://joinup.ec.europa.eu/asset/core_public_service/asset_release/core-public-service-vocabulary-0</URL></Standard></Standards><Issues/></ConceptModelling>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="state" groupid="4" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-09-01" by="1" name="State">
+    <Description/>
+  </Meta>
+<Properties><Property id="1" type="complex"><Label>Circumstance</Label><Description/><ElementGroups><ElementGroup><Element dictid="state" propid="2" cardinality="one"/><Element dictid="state" propid="3" cardinality="one"/></ElementGroup><ElementGroup><Element dictid="core" propid="2" cardinality="one"/></ElementGroup></ElementGroups></Property><Property id="2" type="simple"><Label>Circumstance Type</Label><Description/></Property><Property id="3" type="simple"><Label>Circumstance Value</Label><Description/></Property></Properties><Classes><Class id="1" concept="State"><Label>Situation</Label><Heading>Situations</Heading><Description/><Source/><ClassProperties><ClassProperty id="1" propdictid="core" propid="2" cardinality="one" useAsName="false" useAsIdentifier="false"/></ClassProperties></Class></Classes></Dictionary>

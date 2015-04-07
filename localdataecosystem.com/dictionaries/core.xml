@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="core" groupid="4" publish="no">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-03-16" by="1" name="Core">
+		<Description>Core classes and relationships</Description>
+	</Meta>
+	<Classes>
+		<Class id="1" concept="Person">
+			<Label>Person</Label>
+			<Heading>People</Heading>
+			<Description>A person.</Description>
+			<ClassProperties>
+				<ClassProperty id="1" propid="8" cardinality="mandatory" useAsName="true" useAsIdentifier="false"/>
+				<ClassProperty id="2" propid="9" cardinality="optional"/>
+			<ClassProperty id="3" propdictid="people" propid="1" cardinality="many" useAsName="false" useAsIdentifier="true"/></ClassProperties>
+		</Class>
+
+		<Class id="2" concept="Organization">
+			<Label>Organization</Label>
+			<Heading>Organizations</Heading>
+			<Description>a formal Organization.</Description>
+			<ClassProperties>
+				<ClassProperty id="1" propid="1" cardinality="one" useAsName="true" useAsIdentifier="false"/>
+				<ClassProperty id="2" propid="7" useAsName="false" useAsIdentifier="false" cardinality="many"/>
+			<ClassProperty id="3" propdictid="organisations" propid="1" useAsName="false" useAsIdentifier="false" cardinality="many"/></ClassProperties>
+		</Class>
+
+
+
+		<Class id="3" concept="Organization" subClassOf="2">
+			<Label>Local Authority</Label>
+			<Heading>Local Authorities</Heading>
+			<Description/>
+			<ClassProperties>
+				<ClassProperty id="1" propid="12" cardinality="mandatory" useAsName="false" useAsIdentifier="false">
+					<PropertyLists>
+						<PropertyList listid="1"/>
+					</PropertyLists>
+				</ClassProperty>
+			</ClassProperties>
+		</Class>
+
+		<Class id="4" concept="Place">
+			<Label>Geographic Area</Label>
+			<Heading>Geographic Areas</Heading>
+			<Description/>
+			<ClassProperties>
+				<ClassProperty id="1" propid="1" cardinality="optional"/>
+				<ClassProperty id="2" propid="2" cardinality="optional"/>
+			</ClassProperties>
+			<Source/>
+		</Class>
+
+
+		<Class id="5" concept="Objective">
+			<Label>Objective</Label>
+			<Heading>Objectives</Heading>
+			<Description/>
+		</Class>
+		<Class id="6" concept="Plan">
+			<Label>Programme</Label>
+			<Heading>Programmes</Heading>
+			<Description/>
+		</Class>
+		<Class id="7" concept="Service">
+			<Label>Service</Label>
+			<Heading>Services</Heading>
+			<Description/>
+			<ClassProperties>
+				<ClassProperty id="1" propid="1" cardinality="one" useAsName="true" useAsIdentifier="false"/>
+				<ClassProperty id="2" propid="3" cardinality="many" useAsName="false" useAsIdentifier="false"/>
+				<ClassProperty id="3" propid="2" cardinality="mandatory"/>
+			</ClassProperties>
+		</Class>
+		<Class id="8" concept="Case">
+			<Label>Case</Label>
+			<Heading>Cases</Heading>
+			<Description/>
+			<ClassProperties>
+				<ClassProperty id="1" propid="4" cardinality="mandatory" useAsName="false" useAsIdentifier="true"/>
+				<ClassProperty id="2" propid="10" cardinality="mandatory"/>
+				<ClassProperty id="3" propid="2" cardinality="mandatory"/>
+				<ClassProperty id="4" propid="11" cardinality="optional" useAsName="false" useAsIdentifier="false"/>
+				<ClassProperty id="5" propid="3" cardinality="mandatory" useAsName="false" useAsIdentifier="false"/>
+			<ClassProperty id="6" propid="15" cardinality="one" useAsName="false" useAsIdentifier="false"/><ClassProperty id="7" propdictid="case" propid="1" cardinality="many" useAsName="false" useAsIdentifier="false"/></ClassProperties>
+		</Class>
+		<Class id="9" concept="Decision">
+			<Label>Decision</Label>
+			<Heading>Decisions</Heading>
+			<Description/>
+			<ClassProperties>
+				<ClassProperty id="1" propid="4" cardinality="mandatory"/>
+				<ClassProperty id="2" propid="6" cardinality="mandatory"/>
+				<ClassProperty id="3" propid="2" cardinality="mandatory"/>
+				<ClassProperty id="4" propdictid="date-and-time" propid="1" cardinality="mandatory" useAsName="false" useAsIdentifier="false"/>
+				<ClassProperty id="5" propdictid="date-and-time" propid="2" cardinality="mandatory" useAsName="false" useAsIdentifier="false"/>
+			</ClassProperties>
+		</Class>
+		<Class id="10" concept="Organization">
+			<Label>Household</Label>
+			<Heading>Households</Heading>
+			<Description/>
+			<ClassProperties>
+				<ClassProperty id="1" propid="4" cardinality="mandatory"/>
+			</ClassProperties>
+		</Class>
+		<Class id="11" concept="Item">
+			<Label>Item</Label>
+			<Heading>Items</Heading>
+			<Description></Description>
+			<Source></Source>
+		<ClassProperties><ClassProperty id="1" propid="4" cardinality="one" useAsName="false" useAsIdentifier="true"/><ClassProperty id="2" propid="1" cardinality="one" useAsName="true" useAsIdentifier="false"/><ClassProperty id="3" propid="3" cardinality="many" useAsName="false" useAsIdentifier="false"/><ClassProperty id="4" propid="2" cardinality="one" useAsName="false" useAsIdentifier="false"/></ClassProperties></Class>
+	</Classes>
+	<Relationships>
+
+		<Relationship id="1" conceptRelationship="atPlace" cardinality="many">
+			<Label>is local authority for</Label>
+			<Description/>
+			<Inverse>
+				<Label>is governed by</Label>
+			</Inverse>
+			<Subject class="3"/>
+			<Object dict="place" class="4"/>
+		</Relationship>
+
+		<Relationship id="2" conceptRelationship="containsPlace">
+			<Label>contains</Label>
+			<Description/>
+			<Inverse>
+				<Label>contained in</Label>
+			</Inverse>
+			<Subject class="4"/>
+			<Object class="4"/>
+		</Relationship>
+		<Relationship id="3" conceptRelationship="hasObjective">
+			<Label>has objective</Label>
+			<Description/>
+			<Inverse>
+				<Label>is objective of</Label>
+			</Inverse>
+			<Subject class="2"/>
+			<Object class="5"/>
+		</Relationship>
+		<Relationship id="4" conceptRelationship="hasPlan">
+			<Label>has plan</Label>
+			<Description/>
+			<Inverse>
+				<Label>is plan of</Label>
+			</Inverse>
+			<Subject class="2"/>
+			<Object class="6"/>
+		</Relationship>
+		<Relationship id="5" conceptRelationship="responsibleFor">
+			<Label>responsible for</Label>
+			<Description/>
+			<Inverse>
+				<Label>responsibility of</Label>
+			</Inverse>
+			<Subject class="2"/>
+			<Object class="7"/>
+		</Relationship>
+		<Relationship id="6" conceptRelationship="raisedFrom">
+			<Label>raised from</Label>
+			<Description/>
+			<Inverse>
+				<Label>raises</Label>
+			</Inverse>
+			<Subject class="8"/>
+			<Object class="7"/>
+		</Relationship>
+		<Relationship id="7" conceptRelationship="atPlace" cardinality="extend">
+			<Label>at</Label>
+			<Description/>
+			<Inverse>
+				<Label>is point location of</Label>
+			</Inverse>
+			<Subject class="8"/>
+			<Object dict="place" class="1"/>
+		</Relationship>
+		<Relationship id="8" conceptRelationship="provides">
+			<Label>provides</Label>
+			<Description/>
+			<Inverse>
+				<Label>provided by</Label>
+			</Inverse>
+			<Subject class="2"/>
+			<Object class="7"/>
+		</Relationship>
+	</Relationships>
+
+	<Properties>
+
+		<Property id="1">
+			<Label>Name</Label>
+			<Description>A name of a thing</Description>
+		</Property>
+
+		<Property id="2">
+			<Label>Description</Label>
+			<Description>A free text description of a thing</Description>
+			<Field>
+				<DataType>text</DataType>
+				<Length/>
+			</Field>
+		</Property>
+		<Property id="3" type="simple">
+			<Label>Classification</Label>
+			<Description>A classification of a thing</Description>
+		</Property>
+		<Property id="4">
+			<Label>Reference</Label>
+			<Description>A reference to identify a thing</Description>
+		</Property>
+		<Property id="5">
+			<Label>Status</Label>
+			<Description>The status of a thing</Description>
+		</Property>
+		<Property id="7">
+			<Label>SameAs</Label>
+			<Description>A URI that identifies a thing</Description>
+		</Property>
+		<Property id="8" subPropertyOf="1" type="simple">
+			<Label>Person Name</Label>
+			<Description>The name of a person</Description>
+
+			<Elements>
+				<Part id="1" cardinality="mandatory">
+					<Label>Title</Label>
+					<Description>e.g. Mr, Miss, Wing Commander, Lady etc</Description>
+					<Field>
+						<DataType>line</DataType>
+						<Length>12</Length>
+					</Field>
+				</Part>
+				<Part id="2" cardinality="optional">
+					<Label>Given Name</Label>
+					<Description/>
+					<Field>
+						<DataType>line</DataType>
+					</Field>
+				</Part>
+				<Part id="3" cardinality="optional">
+					<Label>Family Name</Label>
+					<Description/>
+					<Field>
+						<DataType>line</DataType>
+					</Field>
+				</Part>
+				<Part id="4" cardinality="optional">
+					<Label>Suffix</Label>
+					<Description>e.g. Junior</Description>
+					<Field>
+						<DataType>line</DataType>
+						<Length>12</Length>
+					</Field>
+				</Part>
+			</Elements>
+			<Field>
+				<DataType>line</DataType>
+				<Length>40</Length>
+			</Field>
+		</Property>
+
+		<Property id="9" type="simple">
+			<Label>Date of Birth</Label>
+			<Description/>
+			<Field>
+				<DataType>date</DataType>
+				<Length/>
+			</Field>
+		</Property>
+		<Property id="10" type="simple">
+			<Label>Date Raised</Label>
+			<Description/>
+			<Field>
+				<DataType>date</DataType>
+				<Length/>
+			</Field>
+		</Property>
+		<Property id="11" type="simple">
+			<Label>Described at</Label>
+			<Description>A URL to a web page that describes a thing.</Description>
+			<Field>
+				<DataType>URL</DataType>
+				<Length>150</Length>
+			</Field>
+		</Property>
+		<Property id="12" type="simple" subPropertyOf="3">
+			<Label>Type Of Local Authority</Label>
+			<Description/>
+			<Field>
+				<DataType>value</DataType>
+				<Length/>
+			</Field>
+		</Property>
+	<Property id="13" type="simple"><Label>Attribute</Label><Description>A quality or feature regarded as a characteristic or inherent part of someone or something</Description></Property><Property id="14" type="simple"><Label>Value</Label><Description>The content or amount associated with an attribute</Description></Property><Property id="15" type="simple"><Label>Date Closed</Label><Description/><Field><DataType>date</DataType><Length/></Field></Property></Properties>
+	<Lists>
+		<List id="1">
+			<Label>Types of Local Authorities</Label>
+			<Description/>
+			<Source/>
+			<DescribedAt/>
+			<ListValues>
+				<ListValue id="1" valueid="1"/>
+				<ListValue id="2" valueid="2"/>
+			</ListValues>
+		</List>
+	</Lists>
+	<Values>
+		<Value id="1">
+			<Label>Unitary</Label>
+			<Description/>
+			<Code/>
+			<URI/>
+		</Value>
+		<Value id="2">
+			<Label>District</Label>
+			<Description/>
+			<Code/>
+			<URI/>
+		</Value>
+	</Values>
+</Dictionary>

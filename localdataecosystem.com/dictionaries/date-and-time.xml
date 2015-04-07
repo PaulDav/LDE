@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="date-and-time" groupid="4" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-06-01" by="1" name="Date and Time">
+    <Description/>
+  </Meta>
+<Properties><Property id="1" type="simple"><Label>Effective From Date</Label><Description/><Field><DataType>date</DataType><Length/></Field></Property><Property id="2" type="simple"><Label>Effective To Date</Label><Description/><Field><DataType>date</DataType><Length/></Field></Property><Property id="3" type="simple"><Label>On Date</Label><Description>The date that an event occurs</Description><Field><DataType>date</DataType><Length></Length></Field></Property></Properties></Dictionary>

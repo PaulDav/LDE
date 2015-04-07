@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns="http://schema.legsb.gov.uk/lde/library/">
+	<Definition id="1" userid="1" typeid="10" sourceid="1">
+		<Name>Schedule 1 of the Data Protection Act</Name>
+		<Description>summary</Description>
+		<URL>http://url.com</URL>
+	</Definition>
+<Definition id="2" userid="1" typeid="40" sourceid="3"><Name>Public Sector Mapping Agreement</Name><Description>The Public Sector Mapping Agreement (PSMA) began on 1 April 2011 and gives public sector organisations in England and Wales access to Ordnance Survey products.</Description><URL>http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/public-sector-mapping-agreement.html</URL></Definition><Definition id="3" userid="1" typeid="40" sourceid="3"><Name>Public Sector Mapping Agreement End User Licence</Name><Description/><URL>http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/end-user-licence.html</URL></Definition><Definition id="4" userid="1" typeid="50" sourceid="4"><Name>PSN Code of Connectivity</Name><Description/><URL/></Definition><Definition id="5" userid="1" typeid="30" sourceid=""><Name>Identifying a family with complex needs</Name><Description/><URL/></Definition><Definition id="6" userid="1" typeid="30" sourceid=""><Name>Managing a Complex Dependency Programme</Name><Description></Description><URL></URL></Definition></Definitions>

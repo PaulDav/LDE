@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns="http://schema.legsb.gov.uk/lde/profile/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="planning-application-service" groupid="5" publish="no" class="1">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-04-25" by="1" name="Planning Application Service">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" dictid="planningregister" classid="2" create="true" select="false"><Relationships><Relationship id="1" dictid="core" relid="8" inverse="true" class="3"/></Relationships></Class><Class id="2" dictid="planningregister" classid="1" create="false" select="true"/><Class id="3" dictid="core" classid="3" create="false" select="true"/></Classes></Profile>

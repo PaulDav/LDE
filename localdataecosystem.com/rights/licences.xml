@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Licences xmlns="http://schema.legsb.gov.uk/lde/rights/">
+  
+<Licence id="10" ownerid="1"><Name>View Troubled Families Case Data</Name><Description>The case data for the Troubled Families Programme</Description><Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-12-01" by="1" version="13"/><Sets><Set id="70"/></Sets><Organisations><Organisation id="2"/></Organisations><Definitions><Definition id="2"/><Definition id="4"/><Definition id="6"/><Definition id="1"/></Definitions></Licence></Licences>

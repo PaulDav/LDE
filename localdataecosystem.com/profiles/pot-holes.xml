@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns="http://schema.legsb.gov.uk/lde/profile/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="pot-holes" groupid="7" publish="no" class="2">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-04-19" by="1" name="Pot Holes"/>
+	<Classes>
+		<Class id="1" dictid="street-maintenance" classid="1"/>
+	<Class id="2" dictid="street-maintenance" classid="1" create="true" select="false"><Relationships><Relationship id="1" dictid="core" relid="7" cardinality="extend" class="4"/></Relationships></Class><Class id="3" dictid="place" classid="1" create="true" select="false"/><Class id="4" dictid="place" classid="2" create="true" select="false"/></Classes>
+</Profile>

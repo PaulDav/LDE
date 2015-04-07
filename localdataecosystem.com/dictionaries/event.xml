@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="event" groupid="4" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-09-04" by="1" name="Event">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" concept="Event"><Label>Event</Label><Heading>Events</Heading><Description/><Source/><ClassProperties><ClassProperty id="1" propdictid="date-and-time" propid="3" cardinality="one" useAsName="false" useAsIdentifier="false"/><ClassProperty id="2" propdictid="core" propid="3" cardinality="one" useAsName="true" useAsIdentifier="false"/><ClassProperty id="3" propdictid="core" propid="2" cardinality="one" useAsName="false" useAsIdentifier="false"/></ClassProperties></Class></Classes><Relationships><Relationship id="1" conceptRelationship="hasRoleIn" cardinality="many"><Label>has role in</Label><Description></Description><Inverse><Label>has role from</Label></Inverse><Subject dict="core" class="11"/><Object class="1"/></Relationship></Relationships></Dictionary>

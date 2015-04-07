@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns="http://schema.legsb.gov.uk/lde/view/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="decided-planning-applications" groupid="5" publish="no">
+	<Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-05-18" by="1" name="Decided Planning Applications">
+		<Description/>
+	</Meta>
+	<Selections>
+		<Selection>
+			<Class classdictid="planningregister" classid="3">
+
+				<Links>
+					<Link reldictid="core" relid="6">
+						<Class classdictid="core" classid="7"/>
+					</Link>
+					<Link reldictid="core" relid="7">
+						<Class classdictid="planningregister" classid="6">
+							<Properties>
+								<Property propdictid="place" propid="3" selected="true"/>
+								<Property propdictid="place" propid="4" selected="true"/>
+								<Property propdictid="core" propid="2" selected="true"/>
+							</Properties>
+						</Class>
+					</Link>
+					<Link reldictid="planningregister" relid="3">
+						<Class classdictid="planningregister" classid="4">
+
+							
+						<Properties><Property propdictid="planningregister" propid="9" selected="true"/><Property propdictid="core" propid="4" selected="true"/><Property propdictid="date-and-time" propid="1" selected="true"/></Properties></Class>
+					</Link>
+					<Link reldictid="core" relid="7">
+						<Class classdictid="place" classid="1">
+
+							
+						<Properties><Property propdictid="place" propid="5" selected="true"/><Property propdictid="place" propid="1" selected="true"/><Property propdictid="place" propid="2" selected="true"/><Property propdictid="core" propid="2" selected="true"/></Properties></Class>
+					</Link>
+				</Links>
+
+				
+			<Properties><Property propdictid="planningregister" propid="1" selected="true"/><Property propdictid="planningregister" propid="2" selected="true"/><Property propdictid="planningregister" propid="4" selected="true"/><Property propdictid="planningregister" propid="5" selected="true"/><Property propdictid="planningregister" propid="6" selected="true"><Filters><Filter type="is" value="Decided"/></Filters></Property><Property propdictid="planningregister" propid="7" selected="true"/><Property propdictid="planningregister" propid="10" selected="true"/><Property propdictid="core" propid="11" selected="true"/></Properties></Class>
+		</Selection>
+	</Selections>
+</View>

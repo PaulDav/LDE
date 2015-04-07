@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary xmlns="http://schema.legsb.gov.uk/lde/dictionary/" xmlns:meta="http://schema.legsb.gov.uk/lde/metadata/" id="account" groupid="4" publish="no">
+  <Meta xmlns="http://schema.legsb.gov.uk/lde/metadata/" created="2014-09-04" by="1" name="account">
+    <Description/>
+  </Meta>
+<Classes><Class id="1" concept="Account"><Label>Account</Label><Heading>Accounts</Heading><Description/><Source/><ClassProperties><ClassProperty id="1" propdictid="core" propid="4" cardinality="one" useAsName="false" useAsIdentifier="true"/></ClassProperties></Class></Classes><Relationships><Relationship id="1" conceptRelationship="hasRoleFrom" cardinality="many"><Label>is about</Label><Description/><Inverse><Label>has account</Label></Inverse><Subject class="1"/><Object dict="core" class="11"/></Relationship><Relationship id="2" conceptRelationship="ownedBy" cardinality="one"><Label>owned by</Label><Description/><Inverse><Label>has account</Label></Inverse><Subject class="1"/><Object dict="core" class="2"/></Relationship><Relationship id="3" conceptRelationship="hasRoleFrom" cardinality="many"><Label>is about</Label><Description></Description><Inverse><Label>has account</Label></Inverse><Subject class="1"/><Object dict="core" class="1"/></Relationship></Relationships></Dictionary>
